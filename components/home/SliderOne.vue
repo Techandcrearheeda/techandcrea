@@ -4,9 +4,9 @@
     <div class="slider-one__carousel owl-carousel owl-theme">
       <div class="item slider-one__slider-1" style="background-image: url(/images/slider/4457.jpg);">
         <div class="container slider__content">
-          <p class="slider-one__text">WELCOME TO TECHANDCREA AGENCY</p>
-          <div class="slider-one__title tp-caption tp-resizeme">SMART WEB<br> DESIGN AGENCY.</div>
-          <a href="#" class="common_btn"><span>DISCOVER MORE</span></a>
+          <p class="slider-one__text">{{ slogan.title}}</p>
+          <div class="slider-one__title tp-caption tp-resizeme">{{ slogan.subtile_part1 }} <br> {{ slogan.subtile_part2 }}</div>
+          <a href="#" class="common_btn"><span>{{ slogan.callToAction }}</span></a>
           <!-- /.slider-one__text -->
         </div>
         <!-- /.container -->
@@ -14,9 +14,9 @@
       <!-- /.item -->
       <div class="item slider-one__slider-2" style="background-image: url(/images/slider/5469.jpg);">
         <div class="container slider__content">
-          <p class="slider-one__text">WELCOME TO TECHANDCREA AGENCY</p>
-          <div class="slider-one__title tp-caption tp-resizeme">SMART WEB<br> DESIGN AGENCY.</div>
-          <a href="#" class="common_btn"><span>DISCOVER MORE</span></a>
+          <p class="slider-one__text">{{ slogan.title }}</p>
+          <div class="slider-one__title tp-caption tp-resizeme">{{ slogan.subtile_part1 }} <br> {{ slogan.subtile_part2 }}</div>
+          <a href="#" class="common_btn"><span>{{ slogan.callToAction }}</span></a>
         </div>
         <!-- /.container -->
       </div>
@@ -29,6 +29,16 @@
 <script>
     export default {
       name: "SliderOne",
+      data() {
+        return {
+          slogan: {
+            title: 'WELCOME TO TECHANDCREA AGENCY',
+            subtile_part1: 'SMART WEB',
+            subtile_part2: 'DESIGN AGENCY.',
+            callToAction: 'DISCOVER MORE'
+          }
+        }
+      },
       mounted() {
         // Slider
         if ($(".slider-one__carousel").length) {

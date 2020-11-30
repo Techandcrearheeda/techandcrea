@@ -16,9 +16,9 @@
                 <ul>
                   <li class="menu-item-has-children">
                     <a href="/">Home</a>
-                    <ul class="sub-menu">
+                    <!-- <ul class="sub-menu">
                       <li><nuxt-link to="/">Home 01</nuxt-link></li>
-                    </ul>
+                    </ul> -->
                   </li>
                   <li><nuxt-link to="/about">About</nuxt-link></li>
                   <li class="menu-item-has-children"><nuxt-link to="/services">Services</nuxt-link>
@@ -28,16 +28,16 @@
                   </li>
                   <li class="menu-item-has-children"><nuxt-link to="/portfolio">Portfolio</nuxt-link>
                     <ul class="sub-menu">
-                      <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
-                      <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li>
+                      <!-- <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
+                      <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li> -->
                       <li><nuxt-link to="/portfolio-detail">Portfolio Detail</nuxt-link></li>
                     </ul>
                   </li>
                   <li class="menu-item-has-children"><nuxt-link to="/blog">Blog</nuxt-link>
                     <ul class="sub-menu">
-                      <li><nuxt-link to="/blog">Blog v1</nuxt-link></li>
+                      <!-- <li><nuxt-link to="/blog">Blog v1</nuxt-link></li>
                       <li><nuxt-link to="/blog-2">Blog v2</nuxt-link></li>
-                      <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li>
+                      <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li> -->
                       <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
                     </ul>
                   </li>
@@ -92,11 +92,11 @@
                   <ul class="dl-menu dl-menuopen">
                     <li class="menu-item-has-children">
                       <a href="javascript:void(0);">home</a>
-                      <ul class="dl-submenu">
+                      <!-- <ul class="dl-submenu">
                         <li><nuxt-link to="/">Home 01</nuxt-link></li>
                         <li><nuxt-link to="/index-2">Home 02</nuxt-link></li>
                         <li><nuxt-link to="/index-3">Home 03</nuxt-link></li>
-                      </ul>
+                      </ul> -->
                     </li>
                     <li><nuxt-link to="/about">About</nuxt-link></li>
                     <li class="menu-item-has-children"><a href="javascript:void(0);">services</a>
@@ -108,8 +108,8 @@
                     <li class="menu-item-has-children">
                       <a href="javascript:void(0);">Portfolio</a>
                       <ul class="dl-submenu">
-                        <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
-                        <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li>
+                        <!-- <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
+                        <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li> -->
                         <li><nuxt-link to="/portfolio-detail">Portfolio Detail</nuxt-link></li>
                       </ul>
                     </li>
@@ -117,8 +117,8 @@
                       <a href="javascript:void(0);">Blog</a>
                       <ul class="dl-submenu">
                         <li><nuxt-link to="/blog">Blog v1</nuxt-link></li>
-                        <li><nuxt-link to="/blog-2">Blog v2</nuxt-link></li>
-                        <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li>
+                        <!-- <li><nuxt-link to="/blog-2">Blog v2</nuxt-link></li>
+                        <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li> -->
                         <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
                       </ul>
                     </li>
