@@ -2,10 +2,10 @@
   <div>
     <PageBanner pageTitle="Services" />
     <ServicesTwo />
-    <Services />
+    <!-- <Services /> -->
     <WhatWeDoTwo />
-    <Funfact />
-    <Clients />
+    <!-- <Funfact /> -->
+    <!-- <Clients /> -->
   </div>
 </template>
 

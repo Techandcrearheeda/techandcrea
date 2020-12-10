@@ -2,9 +2,9 @@
   <div>
     <PageBanner pageTitle="About Us" />
     <AboutAgency />
-    <TestimonialTwo />
+    <!-- <TestimonialTwo /> -->
     <Team />
-    <OurWork />
+    <!-- <OurWork /> -->
     <WhyChooseUs />
     <CallToAction />
   </div>

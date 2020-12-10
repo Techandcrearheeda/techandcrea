@@ -4,12 +4,12 @@
     <Services />
     <AboutAgency />
     <WhatWeDo />
-    <Portfolio />
-    <Funfact />
+    <!-- <Portfolio /> -->
+    <!-- <Funfact /> -->
     <Team />
-    <Clients />
-    <Testimonial />
-    <BlogHome />
+    <!-- <Clients /> -->
+    <!-- <Testimonial /> -->
+    <!-- <BlogHome /> -->
     <CallToAction />
   </div>
 </template>

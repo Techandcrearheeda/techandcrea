@@ -26,21 +26,21 @@
                       <li><nuxt-link to="/service-detail">Service Detail</nuxt-link></li>
                     </ul>
                   </li>
-                  <li class="menu-item-has-children"><nuxt-link to="/portfolio">Portfolio</nuxt-link>
+                  <!-- <li class="menu-item-has-children"><nuxt-link to="/portfolio">Portfolio</nuxt-link>
                     <ul class="sub-menu">
-                      <!-- <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
-                      <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li> -->
+                      <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
+                      <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li>
                       <li><nuxt-link to="/portfolio-detail">Portfolio Detail</nuxt-link></li>
                     </ul>
-                  </li>
-                  <li class="menu-item-has-children"><nuxt-link to="/blog">Blog</nuxt-link>
+                  </li> -->
+                  <!-- <li class="menu-item-has-children"><nuxt-link to="/blog">Blog</nuxt-link>
                     <ul class="sub-menu">
-                      <!-- <li><nuxt-link to="/blog">Blog v1</nuxt-link></li>
+                      <li><nuxt-link to="/blog">Blog v1</nuxt-link></li>
                       <li><nuxt-link to="/blog-2">Blog v2</nuxt-link></li>
-                      <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li> -->
+                      <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li>
                       <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
                     </ul>
-                  </li>
+                  </li> -->
                   <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                 </ul>
               </nav>
@@ -105,23 +105,23 @@
                         <li><nuxt-link to="/service-detail">Service Detail</nuxt-link></li>
                       </ul>
                     </li>
-                    <li class="menu-item-has-children">
+                    <!-- <li class="menu-item-has-children">
                       <a href="javascript:void(0);">Portfolio</a>
                       <ul class="dl-submenu">
-                        <!-- <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
-                        <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li> -->
+                        <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
+                        <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li>
                         <li><nuxt-link to="/portfolio-detail">Portfolio Detail</nuxt-link></li>
                       </ul>
-                    </li>
-                    <li class="menu-item-has-children">
+                    </li> -->
+                    <!-- <li class="menu-item-has-children">
                       <a href="javascript:void(0);">Blog</a>
                       <ul class="dl-submenu">
                         <li><nuxt-link to="/blog">Blog v1</nuxt-link></li>
-                        <!-- <li><nuxt-link to="/blog-2">Blog v2</nuxt-link></li>
-                        <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li> -->
+                        <li><nuxt-link to="/blog-2">Blog v2</nuxt-link></li>
+                        <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li>
                         <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
                       </ul>
-                    </li>
+                    </li> -->
                     <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                   </ul>
                 </div>

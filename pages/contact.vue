@@ -3,7 +3,7 @@
     <PageBanner pageTitle="Contact" />
     <Contact />
     <Map />
-    <ClientsTwo />
+    <!-- <ClientsTwo /> -->
   </div>
 </template>
 
