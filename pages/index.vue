@@ -1,7 +1,7 @@
 <template>
   <div>
-    <SliderOne />
-    <Services />
+    <SliderOne :slogan='sloganPage' />
+    <Services :ServiceContent='ServicePage' />
     <AboutAgency />
     <WhatWeDo />
     <!-- <Portfolio /> -->
@@ -39,8 +39,22 @@
   //     Testimonial,
   //     BlogHome,
   //     CallToAction,
-
-
   //   }
   // }
+
+  export default {
+    data() {
+        return {
+          sloganPage: {
+            title: 'WELCOME TO TECHANDCREA AGENCY',
+            subtile_part1: 'SMART WEB',
+            subtile_part2: 'DESIGN AGENCY.',
+            callToAction: 'DISCOVER MORE'
+          },
+          ServicePage: {
+            sub_title: 'Services we are offering'
+          }
+        }
+      }
+  }
 </script>

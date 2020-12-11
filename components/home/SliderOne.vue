@@ -29,14 +29,9 @@
 <script>
     export default {
       name: "SliderOne",
-      data() {
-        return {
-          slogan: {
-            title: 'WELCOME TO TECHANDCREA AGENCY',
-            subtile_part1: 'SMART WEB',
-            subtile_part2: 'DESIGN AGENCY.',
-            callToAction: 'DISCOVER MORE'
-          }
+      props:{
+        slogan: {
+          type: Object
         }
       },
       mounted() {

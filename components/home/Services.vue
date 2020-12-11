@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h4 class="sub_title red_color">Services we are offering</h4>
+          <h4 class="sub_title red_color">{{ ServiceContent.sub_title }}</h4>
           <h2 class="sec_title white">We design digital products that<br> help grow businesses.</h2>
           <p class="sec_desc color_aaa">
             We are committed to providing our customers with exceptional service<br> while offering our employees the best training.
@@ -88,7 +88,12 @@
 
 <script>
     export default {
-      name: "Services"
+      name: "Services",
+      props:{
+        ServiceContent:{
+          type: Object
+        }
+      }
     }
 </script>
 
