@@ -17,6 +17,7 @@
       CallToAction,
 
     },
+    
     head(){
       return {
         title: "Techandcrea | Service Detail"

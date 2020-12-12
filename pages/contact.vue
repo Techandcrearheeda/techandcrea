@@ -1,7 +1,7 @@
 <template>
   <div>
     <PageBanner pageTitle="Contact" />
-    <Contact />
+    <Contact :ContactContent='ContactPage'/>
     <Map />
     <!-- <ClientsTwo /> -->
   </div>
@@ -23,6 +23,17 @@
       return {
         title: "Techandcrea | Contact"
       }
+    },
+    data() {
+        return {
+          ContactPage:{
+              sub_title: 'Contact with us',
+              sec_title: 'write us a message',
+              sec_desc :['We are committed to providing our customers with exceptional service while','offering our employees the best training.'],
+              common_btn:'Send Message'
+          },
+      }
     }
   }
+ 
 </script>

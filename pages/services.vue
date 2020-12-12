@@ -1,9 +1,9 @@
 <template>
   <div>
     <PageBanner pageTitle="Services" />
-    <ServicesTwo />
+    <ServicesTwo :ServicesTwoContent='ServicesTwoPage' />
     <!-- <Services /> -->
-    <WhatWeDoTwo />
+    <WhatWeDoTwo :WhatWeDoTwoContent='WhatWeDoTwoPage'/>
     <!-- <Funfact /> -->
     <!-- <Clients /> -->
   </div>
@@ -24,6 +24,41 @@
       WhatWeDoTwo,
       Funfact,
       Clients,
+    },
+    data() {
+        return {
+          ServicesTwoPage:{
+            sub_title:'welcome to smart meipaly web agency',
+            sec_title:['We design digital products that','help grow businesses.'],
+            sec_desc:['We are committed to providing our customers with exceptional service','while offering our employees the best training.'],
+            row:[
+              'Modern Design',
+              'Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.',
+              'Digital products',
+              'Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.',
+              'Marketing Strategy',
+              'Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.'
+              ],
+            linkServiceDetail:'Descover more'
+          },
+          WhatWeDoTwoPage:{
+            sub_title:'what we do',
+            sec_title:'Let’s create something',
+            sec_desc:
+              [
+                'We are committed to providing our customers with exceptional service while',
+                'offering our employees the best training.' 
+                ],
+            row:[
+              'web development',
+              'digital marketing',
+              'product branding'
+              
+              ]
+
+          }
+
+        }
     },
     head(){
       return {
