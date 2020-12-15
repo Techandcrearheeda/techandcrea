@@ -60,7 +60,7 @@ import WhatWeDoVue from '~/components/home/WhatWeDo.vue'
                         'Website Development',
                         'Graphic Designin',
                         'Digital Marketing',
-                        'SEo & Content Writing',
+                        'SEO & Content Writing',
                         'App Development'
                     ]
           },
