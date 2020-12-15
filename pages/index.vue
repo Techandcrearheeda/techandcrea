@@ -46,6 +46,7 @@ import WhatWeDoVue from '~/components/home/WhatWeDo.vue'
   export default {
     data() {
         return {
+          homejson: [],
           sloganPage: {
             title: 'WELCOME TO TECHANDCREA AGENCY',
             subtile_part1: 'SMART WEB',
@@ -90,6 +91,9 @@ import WhatWeDoVue from '~/components/home/WhatWeDo.vue'
               common_btn:'Contact with us'
           },
         }
+      },
+      async fetch() {
+        this.homejson = await $this.content('home').fetch()
       }
   }
 </script>
