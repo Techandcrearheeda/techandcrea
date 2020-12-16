@@ -19,6 +19,10 @@
       props: {
         CallToActionContent: {
           type: Object
+        },
+        design: {
+          type: String,
+          default: 'style1'
         }
       }
     }

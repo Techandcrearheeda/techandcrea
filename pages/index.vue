@@ -46,17 +46,16 @@ import WhatWeDoVue from '~/components/home/WhatWeDo.vue'
   export default {
     data() {
         return {
-          homejson: [],
           sloganPage: {
-            title: 'WELCOME TO TECHANDCREA AGENCY',
-            subtile_part1: 'SMART WEB',
-            subtile_part2: 'DESIGN AGENCY.',
-            callToAction: 'DISCOVER MORE'
+            title: 'BIENVENUE À L\'AGENCE TECH AND CREA',
+            subtile_part1: 'Transformation digitale',
+            subtile_part2: 'Solution numérique',
+            callToAction: 'DÉCOUVRIR PLUS'
           },
           ServicePage: {
-            sub_title: 'Services we are offering',
-            sec_title: ['We design digital products that','help grow businesses.'],
-            sec_desc : ['We are committed to providing our customers with exceptional service','while offering our employees the best training.'],
+            sub_title: 'SERVICES QUE NOUS OFFRONS',
+            sec_title: ['Une équipe à votre écoute ','et attentive à votre demande'],
+            sec_desc : ['Nous nous engageons à fournir à nos clients un service exceptionnel ','tout en offrant à nos employés la meilleure formation.'],
             service:[
                         'Website Development',
                         'Graphic Designin',
@@ -66,19 +65,19 @@ import WhatWeDoVue from '~/components/home/WhatWeDo.vue'
                     ]
           },
           AboutAgencyPage:{
-              sub_title:'welcom to smart techandcrea web agency',
-              sec_title:'We are the Best Website agency in The World',
-              sec_desc :'We are committed to providing our customers with exceptional service while offering our employees the best training.Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry s standard dummy text ever since the 1500s.',
-              common_btn:'Learn More'
+              sub_title:'Bienvenue à l\'agence tech and créa',
+              sec_title:'Nous visons la qualité',
+              sec_desc :'L\'amour du développement, l\'envie forte d\'etre présent sur le marché, nous a conduit à créer Tech and Créa. Bien que notre société soit assez jeune, nous n\'avons pas peur d\'aller de l\'avant et de nous mettre en concurrence avec les grandes entreprises de développement, car nous pensons que nous avons tous les atouts pour se faire une place dans le monde du numérique',
+              common_btn:'Pour en savoir plus'
           },
           WhatWeDoPage:{
-              sub_title:['How do we works','don’t miss out our latest updates'],
-              sec_title:['Digital Experience','Subscribe us'],
+              sub_title:['COMMENT TRAVAILLONS-NOUS','NE MANQUEZ PAS NOS DERNIÈRES MISES À JOUR'],
+              sec_title:['EXPÉRIENCE NUMÉRIQUE','INSCRIVEZ-NOUS'],
               sec_desc :['We are committed to providing our customers with exceptional service while','offering our employees the best training.'],
-              common_btn:'Subscribe now'
+              common_btn:'S\'abonner maintenant'
           },
           TeamPage:{
-              sub_title:'meet the team',
+              sub_title:'RENCONTRER L\'ÉQUIPE',
               sec_title:'expert people',
               sec_desc :['We are committed to providing our customers with exceptional service while','offering our employees the best training.'],
               team_social:['Facebook','Twitter','Youtube'],
@@ -87,13 +86,10 @@ import WhatWeDoVue from '~/components/home/WhatWeDo.vue'
               common_btn:'Learn more'
           },
           CallToActionPage:{
-              sec_title:'Let s Get Your Project Started!',
-              common_btn:'Contact with us'
-          },
+              sec_title:'COMMENCONS VOTRE PROJET!',
+              common_btn:'Contactez-nous'
+          }
         }
-      },
-      async fetch() {
-        this.homejson = await $this.content('home').fetch()
-      }
+    }
   }
 </script>
