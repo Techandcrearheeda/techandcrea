@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import WhatWeDoVue from '~/components/home/WhatWeDo.vue'
+// import WhatWeDoVue from '~/components/home/WhatWeDo.vue'
   // import SliderOne from "~/components/home/SliderOne";
   // import Services from "~/components/home/Services";
   // import AboutAgency from "~/components/home/AboutAgency";
