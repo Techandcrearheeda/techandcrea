@@ -58,9 +58,9 @@
             sec_desc : ['Nous nous engageons à fournir à nos clients un service exceptionnel ','tout en offrant à nos employés la meilleure formation.'],
             service:[
                         'Website Development',
-                        'Graphic Designin',
+                        'Dématérialisation de l’entreprise ',
                         'Digital Marketing',
-                        'SEO & Content Writing',
+                        'Service de Soutien',
                         'App Development'
                     ]
           },
@@ -73,7 +73,7 @@
           WhatWeDoPage:{
               sub_title:['COMMENT TRAVAILLONS-NOUS','NE MANQUEZ PAS NOS DERNIÈRES MISES À JOUR'],
               sec_title:['EXPÉRIENCE NUMÉRIQUE','INSCRIVEZ-NOUS'],
-              sec_desc :['We are committed to providing our customers with exceptional service while','offering our employees the best training.'],
+              sec_desc :['Tous ceux qui travaillent sur votre projet sont pleinement investis dans sa réussite. Nous nous soucions autant de l\'apparence et des performances de votre logiciel que du problème qu\'il résout. Nous travaillons, apprenons et célébrons ensemble, mesurant le succès par la durée de nos partenariats à long terme.'],
               common_btn:'S\'abonner maintenant'
           },
           TeamPage:{

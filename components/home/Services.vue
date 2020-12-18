@@ -12,7 +12,7 @@
       </div>
       <div class="row custom_column">
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-detail" class="icon_box_1 text-center">
+          <nuxt-link to="/service-dev" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-web-design"></i>
@@ -40,7 +40,7 @@
           </nuxt-link>
         </div>
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-detail" class="icon_box_1 text-center">
+          <nuxt-link to="/service-dev" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-development-1"></i>

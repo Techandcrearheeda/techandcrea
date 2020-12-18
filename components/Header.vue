@@ -7,7 +7,7 @@
               <div class="logo">
                 <a href="/">
                   <img v-if="this.$route.name == 'index-2'" src="/images/logo2.png" alt="">
-                  <img v-else="this.$route.name == 'index'" src="/images/logo.png" alt="" width="45">
+                  <img v-else="this.$route.name == 'index'" src="/images/logo.png" alt="" width="150">
                 </a>
               </div>
             </div>
@@ -23,7 +23,7 @@
                   <li><nuxt-link to="/about">About</nuxt-link></li>
                   <li class="menu-item-has-children"><nuxt-link to="/services">Services</nuxt-link>
                     <ul class="sub-menu">
-                      <li><nuxt-link to="/service-detail">Service Detail</nuxt-link></li>
+                      <li><nuxt-link to="/service-dev">Website Development</nuxt-link></li>
                     </ul>
                   </li>
                   <!-- <li class="menu-item-has-children"><nuxt-link to="/portfolio">Portfolio</nuxt-link>
@@ -102,7 +102,7 @@
                     <li class="menu-item-has-children"><a href="javascript:void(0);">services</a>
                       <ul class="dl-submenu">
                         <li><nuxt-link to="/services">Service</nuxt-link></li>
-                        <li><nuxt-link to="/service-detail">Service Detail</nuxt-link></li>
+                        <li><nuxt-link to="/service-dev">Website Development</nuxt-link></li>
                       </ul>
                     </li>
                     <!-- <li class="menu-item-has-children">
