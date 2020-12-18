@@ -27,8 +27,8 @@
     data() {
         return {
           ContactPage:{
-              sub_title: 'Contact with us',
-              sec_title: 'write us a message',
+              sub_title: 'CONTACTEZ-NOUS',
+              sec_title: 'écrivez-nous un message',
               sec_desc :['We are committed to providing our customers with exceptional service while','offering our employees the best training.'],
               common_btn:'Send Message'
           },

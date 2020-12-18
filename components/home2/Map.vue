@@ -19,8 +19,8 @@
           var contact_map
           contact_map = new GMaps({
             el: '#gmap',
-            lat: 40.728157,
-            lng: -74.077644,
+            lat: 47.500279488468394,
+            lng: -18.87443952346339,
             scrollwheel: false,
             zoom: 10,
             zoomControl: false,
@@ -31,8 +31,8 @@
             clickable: false
           });
           contact_map.addMarker({
-            lat: 40.728157,
-            lng: -74.077644,
+            lat: 47.500279488468394,
+            lng: -18.87443952346339,
             icon: "images/marker.png",
             animation: google.maps.Animation.DROP
           });

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageBanner pageTitle="About Us" />
+    <PageBanner pageTitle="À PROPOS" />
     <AboutAgency :AboutAgencyContent='AboutAgencyPage' />
     <!-- <TestimonialTwo /> -->
     <Team :TeamContent='TeamPage'/>
@@ -29,7 +29,7 @@
     },
     head(){
       return {
-        title: "Techandcrea | About Us"
+        title: "Techandcrea | À PROPOS"
       }
     },
     data(){
