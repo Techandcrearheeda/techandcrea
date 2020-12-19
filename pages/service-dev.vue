@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageBanner pageTitle="Website Development" />
+    <PageBanner pageTitle="Développement d'application web" />
     <ServiceDetail :ServiceDetailContent='ServiceDetailPage' />
     <CallToAction :CallToActionContent='CallToActionPage' />
   </div>
@@ -20,7 +20,7 @@
     
     head(){
       return {
-        title: "Techandcrea | Website Development"
+        title: "Techandcrea | Développement d'application web"
       }
     },
     data() {

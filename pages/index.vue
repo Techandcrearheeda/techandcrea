@@ -79,7 +79,7 @@
           TeamPage:{
               sub_title:'RENCONTRER L\'ÉQUIPE',
               sec_title:'expert people',
-              sec_desc :['We are committed to providing our customers with exceptional service while','offering our employees the best training.'],
+              sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout ',' en offrant à nos employés la meilleure formation.'],
               team_social:['Facebook','Twitter','Youtube'],
               detail_TM:['kevin smith','Jessica Brown','Mike Hardson','Rose Ford','John Albert'],
               specialities:['co founder','General Manager','Senior Designer','Marketing manager','Brand Officer'],           

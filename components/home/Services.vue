@@ -26,7 +26,7 @@
           </nuxt-link>
         </div>
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-detail" class="icon_box_1 text-center">
+          <nuxt-link to="/service-dema" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-computer-graphic"></i>
@@ -40,7 +40,7 @@
           </nuxt-link>
         </div>
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-dev" class="icon_box_1 text-center">
+          <nuxt-link to="/service-market" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-development-1"></i>
@@ -54,7 +54,7 @@
           </nuxt-link>
         </div>
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-detail" class="icon_box_1 text-center">
+          <nuxt-link to="/service-support" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-development"></i>
@@ -68,7 +68,7 @@
           </nuxt-link>
         </div>
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="service_detail.html" class="icon_box_1 text-center">
+          <nuxt-link to="service-dev-app" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-app-development"></i>

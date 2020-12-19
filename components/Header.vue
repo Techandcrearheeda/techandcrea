@@ -24,6 +24,10 @@
                   <li class="menu-item-has-children"><nuxt-link to="/services">Services</nuxt-link>
                     <ul class="sub-menu">
                       <li><nuxt-link to="/service-dev">Website Development</nuxt-link></li>
+                      <li><nuxt-link to="/service-dema">Dématérialisation</nuxt-link></li>
+                      <li><nuxt-link to="/service-market">Marketing digital</nuxt-link></li>
+                      <li><nuxt-link to="/service-support">Service apres vente</nuxt-link></li>
+                      <li><nuxt-link to="/service-dev-app">App Development</nuxt-link></li>
                     </ul>
                   </li>
                   <!-- <li class="menu-item-has-children"><nuxt-link to="/portfolio">Portfolio</nuxt-link>
@@ -103,6 +107,10 @@
                       <ul class="dl-submenu">
                         <li><nuxt-link to="/services">Service</nuxt-link></li>
                         <li><nuxt-link to="/service-dev">Website Development</nuxt-link></li>
+                        <li><nuxt-link to="/service-dema">Dématérialisation</nuxt-link></li>
+                        <li><nuxt-link to="/service-market">Marketing digital</nuxt-link></li>
+                        <li><nuxt-link to="/service-support">Service apres vente</nuxt-link></li>
+                        <li><nuxt-link to="/service-dev-app">App Development</nuxt-link></li>
                       </ul>
                     </li>
                     <!-- <li class="menu-item-has-children">
@@ -131,8 +139,8 @@
           <div class="row">
             <div class="col-lg-6 col-sm-6 col-xs-12 text-left">
               <ul class="footer__contacts text-left">
-                <li>Phone: 666 888 000</li>
-                <li>Email: techandcrea@techandcrea.com</li>
+                <li>Phone: +261 32 53 699 31</li>
+                <li>Email: contact@techandcrea.com</li>
                 <li>Address: Ambohimanala, Andoharanofotsy Analamanga, Madagascar</li>
               </ul>
             </div>

@@ -41,13 +41,13 @@
               team_social:['Facebook','Twitter','Youtube'],
               detail_TM:['kevin smith','Jessica Brown','Mike Hardson','Rose Ford','John Albert'],
               specialities:['co founder','General Manager','Senior Designer','Marketing manager','Brand Officer'],           
-              common_btn:'Learn more'
+              common_btn:'Apprendre encore plus'
           },
           AboutAgencyPage:{
               sub_title:'Bienvenue à l\'agence tech and créa',
               sec_title:'Solution numérique qui s\'adapte selon vos besoins',
               sec_desc :'L\'amour du développement, l\'envie forte d\'etre présent sur le marché, nous a conduit à créer Tech and Créa. Bien que notre société soit assez jeune, nous n\'avons pas peur d\'aller de l\'avant et de nous mettre en concurrence avec les grandes entreprises de développement, car nous pensons que nous avons tous les atouts pour se faire une place dans le monde du numérique.',
-              common_btn:'Learn More'
+              common_btn:'Aprendre encore plus'
           },
           CallToActionPage:{
               sec_title:'COMMENCONS VOTRE PROJET!',

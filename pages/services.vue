@@ -28,26 +28,26 @@
     data() {
         return {
           ServicesTwoPage:{
-            sub_title:'welcome to smart meipaly web agency',
-            sec_title:['We design digital products that','help grow businesses.'],
-            sec_desc:['We are committed to providing our customers with exceptional service','while offering our employees the best training.'],
+            sub_title:'Bienvenue à l\'agence tech and créa',
+            sec_title:['NOUS CONCEVONS DES PRODUITS NUMÉRIQUES QUI','AIDE À DÉVELOPPER LES ENTREPRISES.'],
+            sec_desc:['Démocratiser les dématérialisations, pour rendre accessibles ','et simplifier les procédures administratives mais aussi pour le respect de l\'environnement.'],
             row:[
-              'Modern Design',
-              'Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.',
-              'Digital products',
-              'Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.',
-              'Marketing Strategy',
-              'Phaseus sit amet tristique lorem ipsum is simply free text ligua donec culis leo sus cipit.'
+              'DESIGN MODERNE',
+              'UI/UX design, Design thinking, Personna',
+              'PRODUITS NUMÉRIQUES',
+              'App web, mobile, desktop, Framework Agile',
+              'STRATÉGIE DE MARKETING',
+              'Referencement SEO, SEA , campagne Google Ads'
               ],
-            linkServiceDetail:'Descover more'
+            linkServiceDetail:'DÉCOUVREZ PLUS'
           },
           WhatWeDoTwoPage:{
-            sub_title:'what we do',
-            sec_title:'Let’s create something',
+            sub_title:'CE QUE NOUS FAISONS',
+            sec_title:'CRÉONS QUELQUE CHOSE',
             sec_desc:
               [
-                'We are committed to providing our customers with exceptional service while',
-                'offering our employees the best training.' 
+                'Créer des sites internet, static, dynamique, e-commerce,',
+                'n\'a plus de secret pour nous.' 
                 ],
             row:[
               'web development',
