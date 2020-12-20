@@ -7,8 +7,7 @@
           <aside class="widget aboutwidget">
             <a href="#"><img src="/images/logo.png" alt="" width="45"></a>
             <p>
-              Welcome to our web design agency. Lorem ipsum is simply free text dolor sit amet consectetur adipisicing elit.
-              Tempore corrupti temporibus fuga earum asperiores, alias excepturi sit mpedit fugit laudantium.
+              Bienvenue à notre agence de conception web.
             </p>
           </aside>
         </div>
@@ -19,8 +18,8 @@
               Ambohimanala, Andoharanofotsy<br>
               Analamanga, Madagascar
             </p>
-            <p>P: 666 888 000</p>
-            <p>E: <a href="#">techandcrea@techandcrea.com</a></p>
+            <p>P: +261 32 53 699 31</p>
+            <p>E: <a href="#">contact@techandcrea.com</a></p>
           </aside>
         </div>
         <div class="col-lg-3 col-sm-2 col-md-3">

@@ -6,7 +6,7 @@
         <div class="container slider__content">
           <p class="slider-one__text">{{ slogan.title}}</p>
           <div class="slider-one__title tp-caption tp-resizeme">{{ slogan.subtile_part1 }} <br> {{ slogan.subtile_part2 }}</div>
-          <a href="#" class="common_btn"><span>{{ slogan.callToAction }}</span></a>
+          <a href="/about" class="common_btn"><span>{{ slogan.callToAction }}</span></a>
           <!-- /.slider-one__text -->
         </div>
         <!-- /.container -->
@@ -29,14 +29,9 @@
 <script>
     export default {
       name: "SliderOne",
-      data() {
-        return {
-          slogan: {
-            title: 'WELCOME TO TECHANDCREA AGENCY',
-            subtile_part1: 'SMART WEB',
-            subtile_part2: 'DESIGN AGENCY.',
-            callToAction: 'DISCOVER MORE'
-          }
+      props:{
+        slogan: {
+          type: Object
         }
       },
       mounted() {

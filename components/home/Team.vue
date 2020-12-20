@@ -3,10 +3,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h4 class="sub_title">meet the team</h4>
-          <h2 class="sec_title">expert people</h2>
+          <h4 class="sub_title">{{TeamContent.sub_title}}</h4>
+          <h2 class="sec_title">{{TeamContent.sec_title}}</h2>
           <p class="sec_desc">
-            We are committed to providing our customers with exceptional service while<br> offering our employees the best training.
+           {{TeamContent.sec_desc[0]}}<br>{{TeamContent.sec_desc[1]}}
           </p>
         </div>
       </div>
@@ -17,16 +17,16 @@
           <img src="/images/team/1.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
-              <a href="#"><span>Facebook</span></a>
-              <a href="#"><span>Twitter</span></a>
-              <a href="#"><span>Youtube</span></a>
+              <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[1]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[2]}}</span></a>
             </div>
-            <a href="#" class="common_btn"><span>learn more</span></a>
+            <a href="#" class="common_btn"><span>{{TeamContent.common_btn}}</span></a>
           </div>
         </div>
-        <div class="detail_TM">
-          <h5>kevin smith</h5>
-          <h6>co founder</h6>
+        <div class="detail_TM">CallToAction
+          <h5>{{TeamContent.detail_TM[0]}}</h5>
+          <h6>{{TeamContent.specialities[0]}}</h6>
         </div>
       </div>
       <div class="singleTM">
@@ -34,16 +34,16 @@
           <img src="/images/team/2.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
-              <a href="#"><span>Facebook</span></a>
-              <a href="#"><span>Twitter</span></a>
-              <a href="#"><span>Youtube</span></a>
+              <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[1]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[2]}}</span></a>
             </div>
-            <a href="#" class="common_btn"><span>learn more</span></a>
+            <a href="#" class="common_btn"><span>{{TeamContent.common_btn}}</span></a>
           </div>
         </div>
         <div class="detail_TM">
-          <h5>Jessica Brown</h5>
-          <h6>General Manager</h6>
+          <h5>{{TeamContent.detail_TM[1]}}</h5>
+          <h6>{{TeamContent.specialities[1]}}</h6>
         </div>
       </div>
       <div class="singleTM">
@@ -51,16 +51,16 @@
           <img src="/images/team/3.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
-              <a href="#"><span>Facebook</span></a>
-              <a href="#"><span>Twitter</span></a>
-              <a href="#"><span>Youtube</span></a>
+              <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[1]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[2]}}</span></a>
             </div>
-            <a href="#" class="common_btn"><span>learn more</span></a>
+            <a href="#" class="common_btn"><span>{{TeamContent.common_btn}}</span></a>
           </div>
         </div>
         <div class="detail_TM">
-          <h5>Mike Hardson</h5>
-          <h6>Senior Designer</h6>
+          <h5>{{TeamContent.detail_TM[2]}}</h5>
+          <h6>{{TeamContent.specialities[2]}}</h6>
         </div>
       </div>
       <div class="singleTM">
@@ -68,16 +68,16 @@
           <img src="/images/team/4.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
-              <a href="#"><span>Facebook</span></a>
-              <a href="#"><span>Twitter</span></a>
-              <a href="#"><span>Youtube</span></a>
+              <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[1]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[2]}}</span></a>
             </div>
-            <a href="#" class="common_btn"><span>learn more</span></a>
+            <a href="#" class="common_btn"><span>{{TeamContent.common_btn}}</span></a>
           </div>
         </div>
         <div class="detail_TM">
-          <h5>Rose Ford</h5>
-          <h6>Marketing manager</h6>
+          <h5>{{TeamContent.detail_TM[3]}}</h5>
+          <h6>{{TeamContent.specialities[3]}}</h6>
         </div>
       </div>
       <div class="singleTM">
@@ -85,16 +85,16 @@
           <img src="/images/team/5.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
-              <a href="#"><span>Facebook</span></a>
-              <a href="#"><span>Twitter</span></a>
-              <a href="#"><span>Youtube</span></a>
+              <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[1]}}</span></a>
+              <a href="#"><span>{{TeamContent.team_social[2]}}</span></a>
             </div>
-            <a href="#" class="common_btn"><span>learn more</span></a>
+            <a href="#" class="common_btn"><span>{{TeamContent.common_btn}}</span></a>
           </div>
         </div>
         <div class="detail_TM">
-          <h5>John Albert</h5>
-          <h6>Brand Officer</h6>
+          <h5>{{TeamContent.detail_TM[4]}}</h5>
+          <h6>{{TeamContent.specialities[4]}}</h6>
         </div>
       </div>
     </div>
@@ -104,6 +104,11 @@
 <script>
     export default {
       name: "Team",
+      props:{
+        TeamContent:{
+          type:Object
+        }
+      },
       mounted() {
         if ($('.team_slider').length > 0) {
           $('.team_slider').slick({

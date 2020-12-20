@@ -3,10 +3,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h4 class="sub_title">how do we works</h4>
-          <h2 class="sec_title">Digital Experience</h2>
+          <h4 class="sub_title">{{WhatWeDoContent.sub_title[0]}}</h4>
+          <h2 class="sec_title">{{WhatWeDoContent.sec_title[0]}}</h2>
           <p class="sec_desc">
-            We are committed to providing our customers with exceptional service while<br> offering our employees the best training.
+            {{WhatWeDoContent.sec_desc[0]}}<br>{{WhatWeDoContent.sec_desc[1]}}
           </p>
         </div>
       </div>
@@ -23,13 +23,13 @@
       </div>
       <div class="row">
         <div class="col-lg-4 col-sm-5 col-md-4">
-          <h4 class="sub_title">don’t miss out our latest updates</h4>
-          <h2 class="sec_title">Subscribe us</h2>
+          <h4 class="sub_title">{{WhatWeDoContent.sub_title[1]}}</h4>
+          <h2 class="sec_title">{{WhatWeDoContent.sec_title[1]}}</h2>
         </div>
         <div class="col-lg-8 col-sm-7 col-md-8">
           <form action="" method="post" class="subscribefrom">
             <input type="email" placeholder="Enter your email" name="email">
-            <button class="common_btn red_bg" type="submit" name="submit"><span>Subscribe now</span></button>
+            <button class="common_btn red_bg" type="submit" name="submit"><span>{{WhatWeDoContent.common_btn}}</span></button>
           </form>
         </div>
       </div>
@@ -40,6 +40,11 @@
 <script>
     export default {
       name: "WhatWeDo",
+      props:{
+        WhatWeDoContent:{
+          type:Object
+        }
+      },
       mounted() {
         $('.video_popup').magnificPopup({
           type: 'iframe'

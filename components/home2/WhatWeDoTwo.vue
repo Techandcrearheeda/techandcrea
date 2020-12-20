@@ -3,10 +3,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h4 class="sub_title">what we do</h4>
-          <h2 class="sec_title">Let’s create something</h2>
+          <h4 class="sub_title">{{WhatWeDoTwoContent.sub_title}}</h4>
+          <h2 class="sec_title">{{WhatWeDoTwoContent.sec_title}}</h2>
           <p class="sec_desc">
-            We are committed to providing our customers with exceptional service while<br> offering our employees the best training.
+            {{WhatWeDoTwoContent.sec_desc[0]}}<br> {{WhatWeDoTwoContent.sec_desc[1]}}
           </p>
         </div>
       </div>
@@ -15,7 +15,7 @@
           <div class="single_wedo">
             <img src="/images/home_1/6.jpg" alt=""/>
             <div class="overlay_wedo">
-              <a href="#">web development</a>
+              <a href="#">{{WhatWeDoTwoContent.row[0]}}</a>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@
           <div class="single_wedo">
             <img src="/images/home_1/7.jpg" alt=""/>
             <div class="overlay_wedo">
-              <a href="#">digital marketing</a>
+              <a href="#">{{WhatWeDoTwoContent.row[1]}}</a>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@
           <div class="single_wedo">
             <img src="/images/home_1/8.jpg" alt=""/>
             <div class="overlay_wedo">
-              <a href="#">product branding</a>
+              <a href="#">{{WhatWeDoTwoContent.row[2]}}</a>
             </div>
           </div>
         </div>
@@ -42,7 +42,12 @@
 
 <script>
     export default {
-      name: "WhatWeDoTwo"
+      name: "WhatWeDoTwo",
+      props:{
+        WhatWeDoTwoContent:{
+          type:Object
+        }
+      }
     }
 </script>
 

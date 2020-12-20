@@ -1,11 +1,11 @@
 <template>
   <div>
     <PageBanner pageTitle="Services" />
-    <ServicesTwo />
-    <Services />
-    <WhatWeDoTwo />
-    <Funfact />
-    <Clients />
+    <ServicesTwo :ServicesTwoContent='ServicesTwoPage' />
+    <!-- <Services /> -->
+    <WhatWeDoTwo :WhatWeDoTwoContent='WhatWeDoTwoPage'/>
+    <!-- <Funfact /> -->
+    <!-- <Clients /> -->
   </div>
 </template>
 
@@ -24,6 +24,41 @@
       WhatWeDoTwo,
       Funfact,
       Clients,
+    },
+    data() {
+        return {
+          ServicesTwoPage:{
+            sub_title:'Bienvenue à l\'agence tech and créa',
+            sec_title:['NOUS CONCEVONS DES PRODUITS NUMÉRIQUES QUI','AIDE À DÉVELOPPER LES ENTREPRISES.'],
+            sec_desc:['Démocratiser les dématérialisations, pour rendre accessibles ','et simplifier les procédures administratives mais aussi pour le respect de l\'environnement.'],
+            row:[
+              'DESIGN MODERNE',
+              'UI/UX design, Design thinking, Personna',
+              'PRODUITS NUMÉRIQUES',
+              'App web, mobile, desktop, Framework Agile',
+              'STRATÉGIE DE MARKETING',
+              'Referencement SEO, SEA , campagne Google Ads'
+              ],
+            linkServiceDetail:'DÉCOUVREZ PLUS'
+          },
+          WhatWeDoTwoPage:{
+            sub_title:'CE QUE NOUS FAISONS',
+            sec_title:'CRÉONS QUELQUE CHOSE',
+            sec_desc:
+              [
+                'Créer des sites internet, static, dynamique, e-commerce,',
+                'n\'a plus de secret pour nous.' 
+                ],
+            row:[
+              'web development',
+              'digital marketing',
+              'product branding'
+              
+              ]
+
+          }
+
+        }
     },
     head(){
       return {

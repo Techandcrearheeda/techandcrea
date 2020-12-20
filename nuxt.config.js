@@ -30,7 +30,7 @@ export default {
       { src: "/js/bootstrap.min.js", type: "text/javascript", body: true },
       { src: "/js/modernizr.custom.js", type: "text/javascript", body: true },
       { src: "/js/gmaps.js", type: "text/javascript", body: true },
-      { src: "https://maps.google.com/maps/api/js?key=AIzaSyDTPlX-43R1TpcQUyWjFgiSfL_BiGxslZU", type: "text/javascript", body: true },
+      { src: "https://maps.google.com/maps/api/js?key=AIzaSyDcRVa34aeAXfNhdqaqI2WHF95QLtIce7U", type: "text/javascript", body: true },
       { src: "/js/dlmenu.js", type: "text/javascript", body: true },
       { src: "/js/jquery.magnific-popup.js", type: "text/javascript", body: true },
       { src: "/js/mixer.js", type: "text/javascript", body: true },

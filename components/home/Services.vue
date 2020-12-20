@@ -3,80 +3,80 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h4 class="sub_title red_color">Services we are offering</h4>
-          <h2 class="sec_title white">We design digital products that<br> help grow businesses.</h2>
+          <h4 class="sub_title red_color">{{ ServiceContent.sub_title }}</h4>
+          <h2 class="sec_title white">{{ServiceContent.sec_title[0]}}<br>{{ServiceContent.sec_title[1]}}</h2>
           <p class="sec_desc color_aaa">
-            We are committed to providing our customers with exceptional service<br> while offering our employees the best training.
+            {{ServiceContent.sec_desc[0]}}<br>{{ServiceContent.sec_desc[1]}}
           </p>
         </div>
       </div>
       <div class="row custom_column">
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-detail" class="icon_box_1 text-center">
+          <nuxt-link to="/service-dev" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-web-design"></i>
-                <h3>Website Development</h3>
+                <h3>{{ServiceContent.service[0]}}</h3>
               </div>
               <div class="back">
                 <i class="mei-web-design"></i>
-                <h3>Website Development</h3>
+                <h3>{{ServiceContent.service[0]}}</h3>
               </div>
             </div>
           </nuxt-link>
         </div>
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-detail" class="icon_box_1 text-center">
+          <nuxt-link to="/service-dema" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-computer-graphic"></i>
-                <h3>Graphic Designing</h3>
+                <h3>{{ServiceContent.service[1]}}</h3>
               </div>
               <div class="back">
                 <i class="mei-computer-graphic"></i>
-                <h3>Graphic Designing</h3>
+                <h3>{{ServiceContent.service[1]}}</h3>
               </div>
             </div>
           </nuxt-link>
         </div>
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-detail" class="icon_box_1 text-center">
+          <nuxt-link to="/service-market" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-development-1"></i>
-                <h3>Digital Marketing</h3>
+                <h3>{{ServiceContent.service[2]}}</h3>
               </div>
               <div class="back">
                 <i class="mei-development-1"></i>
-                <h3>Digital Marketing</h3>
+                <h3>{{ServiceContent.service[2]}}</h3>
               </div>
             </div>
           </nuxt-link>
         </div>
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-detail" class="icon_box_1 text-center">
+          <nuxt-link to="/service-support" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-development"></i>
-                <h3>SEo & Content Writing</h3>
+                <h3>{{ServiceContent.service[3]}}</h3>
               </div>
               <div class="back">
                 <i class="mei-development"></i>
-                <h3>SEo & Content Writing</h3>
+                <h3>{{ServiceContent.service[3]}}</h3>
               </div>
             </div>
           </nuxt-link>
         </div>
         <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="service_detail.html" class="icon_box_1 text-center">
+          <nuxt-link to="service-dev-app" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-app-development"></i>
-                <h3>App Development</h3>
+                <h3>{{ServiceContent.service[4]}}</h3>
               </div>
               <div class="back">
                 <i class="mei-app-development"></i>
-                <h3>App Development</h3>
+                <h3>{{ServiceContent.service[4]}}</h3>
               </div>
             </div>
           </nuxt-link>
@@ -88,7 +88,12 @@
 
 <script>
     export default {
-      name: "Services"
+      name: "Services",
+      props:{
+        ServiceContent:{
+          type: Object
+        }
+      }
     }
 </script>
 

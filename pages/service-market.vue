@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageBanner pageTitle="Service Detail" />
+    <PageBanner pageTitle="Marketing digital" />
     <ServiceDetail :ServiceDetailContent='ServiceDetailPage' />
     <CallToAction :CallToActionContent='CallToActionPage' />
   </div>
@@ -20,7 +20,7 @@
     
     head(){
       return {
-        title: "Techandcrea | Service Detail"
+        title: "Techandcrea | Marketing digital"
       }
     },
     data() {

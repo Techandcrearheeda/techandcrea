@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageBanner pageTitle="Service Detail" />
+    <PageBanner pageTitle="Dématérialisations" />
     <ServiceDetail :ServiceDetailContent='ServiceDetailPage' />
     <CallToAction :CallToActionContent='CallToActionPage' />
   </div>
@@ -20,7 +20,7 @@
     
     head(){
       return {
-        title: "Techandcrea | Service Detail"
+        title: "Techandcrea | dématérialisations"
       }
     },
     data() {
@@ -56,7 +56,7 @@
             'App Development'
           ],
           meipaly_services_help:[
-            'need meipaly help?',
+            'need technad crea help?',
             'Prefer speaking with a human to filling out a form? call corporate office and we will connect you with a team member who can help.',
             '666 888 000'
           ]

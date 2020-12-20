@@ -7,7 +7,7 @@
               <div class="logo">
                 <a href="/">
                   <img v-if="this.$route.name == 'index-2'" src="/images/logo2.png" alt="">
-                  <img v-else="this.$route.name == 'index'" src="/images/logo.png" alt="" width="45">
+                  <img v-else="this.$route.name == 'index'" src="/images/logo.png" alt="" width="150">
                 </a>
               </div>
             </div>
@@ -23,24 +23,28 @@
                   <li><nuxt-link to="/about">About</nuxt-link></li>
                   <li class="menu-item-has-children"><nuxt-link to="/services">Services</nuxt-link>
                     <ul class="sub-menu">
-                      <li><nuxt-link to="/service-detail">Service Detail</nuxt-link></li>
+                      <li><nuxt-link to="/service-dev">Website Development</nuxt-link></li>
+                      <li><nuxt-link to="/service-dema">Dématérialisation</nuxt-link></li>
+                      <li><nuxt-link to="/service-market">Marketing digital</nuxt-link></li>
+                      <li><nuxt-link to="/service-support">Service apres vente</nuxt-link></li>
+                      <li><nuxt-link to="/service-dev-app">App Development</nuxt-link></li>
                     </ul>
                   </li>
-                  <li class="menu-item-has-children"><nuxt-link to="/portfolio">Portfolio</nuxt-link>
+                  <!-- <li class="menu-item-has-children"><nuxt-link to="/portfolio">Portfolio</nuxt-link>
                     <ul class="sub-menu">
-                      <!-- <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
-                      <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li> -->
+                      <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
+                      <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li>
                       <li><nuxt-link to="/portfolio-detail">Portfolio Detail</nuxt-link></li>
                     </ul>
-                  </li>
-                  <li class="menu-item-has-children"><nuxt-link to="/blog">Blog</nuxt-link>
+                  </li> -->
+                  <!-- <li class="menu-item-has-children"><nuxt-link to="/blog">Blog</nuxt-link>
                     <ul class="sub-menu">
-                      <!-- <li><nuxt-link to="/blog">Blog v1</nuxt-link></li>
+                      <li><nuxt-link to="/blog">Blog v1</nuxt-link></li>
                       <li><nuxt-link to="/blog-2">Blog v2</nuxt-link></li>
-                      <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li> -->
+                      <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li>
                       <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
                     </ul>
-                  </li>
+                  </li> -->
                   <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                 </ul>
               </nav>
@@ -102,26 +106,30 @@
                     <li class="menu-item-has-children"><a href="javascript:void(0);">services</a>
                       <ul class="dl-submenu">
                         <li><nuxt-link to="/services">Service</nuxt-link></li>
-                        <li><nuxt-link to="/service-detail">Service Detail</nuxt-link></li>
+                        <li><nuxt-link to="/service-dev">Website Development</nuxt-link></li>
+                        <li><nuxt-link to="/service-dema">Dématérialisation</nuxt-link></li>
+                        <li><nuxt-link to="/service-market">Marketing digital</nuxt-link></li>
+                        <li><nuxt-link to="/service-support">Service apres vente</nuxt-link></li>
+                        <li><nuxt-link to="/service-dev-app">App Development</nuxt-link></li>
                       </ul>
                     </li>
-                    <li class="menu-item-has-children">
+                    <!-- <li class="menu-item-has-children">
                       <a href="javascript:void(0);">Portfolio</a>
                       <ul class="dl-submenu">
-                        <!-- <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
-                        <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li> -->
+                        <li><nuxt-link to="/portfolio">Portfolio v1</nuxt-link></li>
+                        <li><nuxt-link to="/portfolio-2">Portfolio v2</nuxt-link></li>
                         <li><nuxt-link to="/portfolio-detail">Portfolio Detail</nuxt-link></li>
                       </ul>
-                    </li>
-                    <li class="menu-item-has-children">
+                    </li> -->
+                    <!-- <li class="menu-item-has-children">
                       <a href="javascript:void(0);">Blog</a>
                       <ul class="dl-submenu">
                         <li><nuxt-link to="/blog">Blog v1</nuxt-link></li>
-                        <!-- <li><nuxt-link to="/blog-2">Blog v2</nuxt-link></li>
-                        <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li> -->
+                        <li><nuxt-link to="/blog-2">Blog v2</nuxt-link></li>
+                        <li><nuxt-link to="/blog-3">Blog v3</nuxt-link></li>
                         <li><nuxt-link to="/blog-single">Blog Single</nuxt-link></li>
                       </ul>
-                    </li>
+                    </li> -->
                     <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                   </ul>
                 </div>
@@ -131,8 +139,8 @@
           <div class="row">
             <div class="col-lg-6 col-sm-6 col-xs-12 text-left">
               <ul class="footer__contacts text-left">
-                <li>Phone: 666 888 000</li>
-                <li>Email: techandcrea@techandcrea.com</li>
+                <li>Phone: +261 32 53 699 31</li>
+                <li>Email: contact@techandcrea.com</li>
                 <li>Address: Ambohimanala, Andoharanofotsy Analamanga, Madagascar</li>
               </ul>
             </div>
