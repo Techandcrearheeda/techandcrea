@@ -15,7 +15,7 @@
           <div class="single_wedo">
             <img src="/images/home_1/6.jpg" alt=""/>
             <div class="overlay_wedo">
-              <a href="#">{{WhatWeDoTwoContent.row[0]}}</a>
+              <a href="/service-dev">{{WhatWeDoTwoContent.row[0]}}</a>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@
           <div class="single_wedo">
             <img src="/images/home_1/7.jpg" alt=""/>
             <div class="overlay_wedo">
-              <a href="#">{{WhatWeDoTwoContent.row[1]}}</a>
+              <a href="/service-market">{{WhatWeDoTwoContent.row[1]}}</a>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@
           <div class="single_wedo">
             <img src="/images/home_1/8.jpg" alt=""/>
             <div class="overlay_wedo">
-              <a href="#">{{WhatWeDoTwoContent.row[2]}}</a>
+              <a href="/service-dema">{{WhatWeDoTwoContent.row[2]}}</a>
             </div>
           </div>
         </div>

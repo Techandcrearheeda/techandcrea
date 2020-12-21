@@ -58,7 +58,7 @@
           meipaly_services_help:[
             'BESOIN D\'AIDE Techandcrea?',
             'Vous préférez parler à un humain plutôt que de remplir un formulaire? appelez le siège social et nous vous mettrons en contact avec un membre de l\'équipe qui pourra vous aider.',
-            '666 888 000'
+            '+261 32 53 699 31'
           ]
         }
       }
