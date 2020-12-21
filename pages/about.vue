@@ -65,33 +65,33 @@
             wh_choose:
               [
                 'Pour chaque écran que nous concevons et construisons, la personne qui interagit avec cet écran est une priorité. Quels sont leurs besoins? Plus important encore, quels sont les comportements qui motivent ces besoins? En adoptant une approche de conception centrée sur l\'humain, nous sommes en mesure de mieux répondre et d\'anticiper les attentes des utilisateurs lorsqu\'ils interagissent avec votre entreprise et vos produits.',
-                'Self-contained, state-of-the-art time clock',
-                'Scalability of up to 500 employees per time clock',
-                'The ability to connect up to 32 time clocks',
-                'Employee self-enrollment',
-                'Payroll integration',
-                'Built-in backup camera to verify failed '
+                'Proposer des produits fonctionnels',
+                'Etre constant dans sa relation client',
+                'Adopter une vision à long terme',
+                'Adapter son organisation pour concevoir autrement',
+                'Faire du numérique un état d’esprit',
+                'réduire l\'inconfort et le stress'
               ],
               
               wh_choose1:
               [
                 'Le logiciel d’aujourd’hui n’est jamais vraiment terminé. Quelle que soit la solidité de votre logiciel, les bogues sont inévitables, tout comme les versions de correctifs et les mises à jour de nouvelles fonctionnalités. Un support post-livraison approprié garantit que votre logiciel reste sécurisé, maintenu et amélioré bien après son lancement.',
-                'Self-contained, state-of-the-art time clock',
-                'Scalability of up to 500 employees per time clock',
-                'The ability to connect up to 32 time clocks',
-                'Employee self-enrollment',
-                'Payroll integration',
-                'Built-in backup camera to verify failed '
+                'Unifier les points de contact.',
+                'Personnaliser le service.',
+                'Harmoniser les différents processus.',
+                'Valoriser les engagements.',
+                'Miser sur la satisfaction des collaborateurs.',
+                'Répondre aux demandes d\'assistance'
               ],
               wh_choose2:
               [
                 'Des protocoles de sécurité efficaces doivent trouver un équilibre entre la protection des données et des informations tout en créant un processus transparent pour les utilisateurs qui impose le moins de friction possible. Plus un processus de sécurité est fastidieux, plus quelqu\'un est susceptible de laisser un mot de passe ou un code clé important sur un post-it à son bureau. Cette simple erreur de jugement expose tout un système à un risque de violation.',
-                'Self-contained, state-of-the-art time clock',
-                'Scalability of up to 500 employees per time clock',
-                'The ability to connect up to 32 time clocks',
-                'Employee self-enrollment',
-                'Payroll integration',
-                'Built-in backup camera to verify failed '
+                'Aligner la technologie sur le business',
+                'Identifier les leaders business et technologiques',
+                'Commencer en douceur… puis déployer largement',
+                'Lancer le projet… et faire de l’amélioration continue',
+                'Améliorer le modèle de gouvernance en permanence',
+                'Des applications uniques et autonomes à l\'infrastructure cloud '
               ]    
           }
       }

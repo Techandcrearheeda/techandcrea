@@ -33,19 +33,19 @@
           img_url: ['/images/support.png','images/SAV.jpg'],
           serviceArea:[
             'Support',
-            'Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+            'Priorité à l\'interaction avec les clients. Ainsi, un bon service après-vente doit toujours répondre aux questions des clients. Avec une bonne écoute, ces derniers se sentiront considérés. Quel que soit le canal utilisé, mail, tchat, téléphone ou en magasin physique, le client doit se sentir important et priorisé.',
             'planning',
             'strategy',
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-            'Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged.',
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+            'Le service après-vente désigne un ensemble de service ayant pour objectif d\'assurer la mise en marche, la maintenance et la réparation si besoin, d\'un bien ou d\'un service qui a été vendu par une entreprise.',
+            'Son sens de l\'écoute, sa disponibilité, sa réactivité et son engagement doivent lui permettre d\'apporter des réponses personnalisées aux questions et aux problématiques de la clientèle.',
+            'Une gestion du SAV optimale garantit une bonne image pour l\'entreprise et permet de fidéliser les clients. La satisfaction des clients grâce à un service après-vente de qualité constitue un moyen efficace pour poursuivre la relation commerciale avec eux.'
           ],
           fa:[
-            'Research beyond the business plan',
-            'Marketing options and rates',
-            'The ability to turnaround consulting',
-            'Help companies into more profitable',
-            'Customer engagement matters',
+            'Répondre aux clients (interaction avec les clients)',
+            'La réactivité (réduire au maximum le temps de réponse.)',
+            'Des interlocuteurs professionnels',
+            'Focus sur la qualité de service',
+            ' Offrir des cadeaux',
           ],
           widget_title:'Services',
           meipaly_categorie_widget:[

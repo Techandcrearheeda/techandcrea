@@ -33,19 +33,19 @@
           img_url: ['/images/770x426.png','images/370x344.jpg'],
           serviceArea:[
             'Dématérialisations',
-            'Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+            'La dématérialisation ou numérisation, qui consiste à virtualiser des documents papiers ou « physiques », devient un outil important de productivité dans les entreprises. En effet, la dématérialisation permet d\'économiser du temps, de la ressource humaine et donc de l\'argent.',
             'planning',
             'strategy',
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-            'Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged.',
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+            'Avant de se lancer dans un projet de dématérialisation, il est nécessaire de se poser la question de la cible et de la stratégie à mener. Néanmoins, il est évident que l’ensemble du sujet (capture, GED/Case Management, conservation, pilotage et monitoring) doit être abordé dans une analyse globale.',
+            'Vous l’aurez compris, la dématérialisation constitue un atout pour les entreprises, à elles de sauter le pas et de profiter des avantages de cette transformation digitale.',
+            'Le choix de votre fournisseur de solution est primordial pour le succès de votre projet : celui-ci doit pouvoir vous guider à chaque étape de votre projet et rester disponible car les interrogations ne manqueront pas de la part des équipes. '
           ],
           fa:[
-            'Research beyond the business plan',
-            'Marketing options and rates',
-            'The ability to turnaround consulting',
-            'Help companies into more profitable',
-            'Customer engagement matters',
+            'La volumétrie et la typologie des documents',
+            'Les activités métiers & Automatiser la capture ',
+            'Les entités & Garantir l’authenticité ',
+            'Les acteurs internes',
+            'Les acteurs externes',
           ],
           widget_title:'Services',
           meipaly_categorie_widget:[

@@ -29,7 +29,7 @@
           ContactPage:{
               sub_title: 'CONTACTEZ-NOUS',
               sec_title: 'écrivez-nous un message',
-              sec_desc :['We are committed to providing our customers with exceptional service while','offering our employees the best training.'],
+              sec_desc :['La raison d\'être d\'une entreprise est de créer et de garder un client '],
               common_btn:'Envoyer le message'
           },
       }

@@ -33,19 +33,19 @@
           img_url: ['/images/app-dev-1.jpg','images/app-dev-2.jpeg'],
           serviceArea:[
             'Développement d\'application',
-            'Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-            'planning',
+            'L\'application mobile permet d\'enrichir sa présence online, puisqu\'elle permet d\'être référencé sur les plateformes d\'applications telles que Play store ou App store. Avoir une application fait gagner en visibilité, et améliore l\'image de marque.',
+            'Objectifs',
             'strategy',
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-            'Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged.',
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+            'Avoir une application, fait de votre entreprise, de votre marque ou de votre syndicat un acteur moderne et proche de son consommateur. Le lancement d’une application mobile fait davantage parler de vous que le lancement d’un nouveau site.',
+            'Il est important d\'avoir une application mobile afin de pouvoir donner une image favorable à sa marque et à sa communication. Un utilisateur cherche d\'abord une marque dans l\'App store / Google Play. Par conséquent, vous perdez des utilisateurs si vous n\'êtes pas présent sur ces plateformes',
+            'L’expérience utilisateur est constituée de tous les points qui font la qualité de l’expérience sur l’application.'
           ],
           fa:[
-            'Research beyond the business plan',
-            'Marketing options and rates',
-            'The ability to turnaround consulting',
-            'Help companies into more profitable',
-            'Customer engagement matters',
+            'Améliorer l’offre de service au client',
+            'Améliorer les processus de traitement des demandes clients',
+            'Développer une stratégie d’évitement de contacts',
+            'Amplifier l’intensité relationnelle avec le client.',
+            'Détendre les consommateurs',
           ],
           widget_title:'Services',
           meipaly_categorie_widget:[

@@ -33,19 +33,19 @@
           img_url: ['/images/digi-market-1.jpeg','images/digi-market-2.jpg'],
           serviceArea:[
             'Marketing digital',
-            'Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+            'Le marketing internet fédère un grand nombre de techniques et d\'outils au service d\'une stratégie web. Il est impensable aujourd\'hui exploiter une activité sur la toile avec succès sans de solides compétences dans ce jeune domaine, l\'e-marketing.',
             'planning',
             'strategy',
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-            'Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged.',
-            'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.'
+            'La transformation digitale consiste à repenser totalement sa stratégie internet pour s\'adapter au digital. Il s\'agit d\'une réflexion sur la forme comme le fond, un changement dans la manière d\'appréhender votre communication marketing et les outils utilisés.',
+            'Vous pouvez même jouer avec et les mixer entre elles. C’est par exemple ce que nous faisons lorsque nous réalisons notre panorama de concurrence SEO. Celui-ci utilise s’appuie sur plusieurs méthodes que nous avons associées entre elles et qui nous permet aujourd’hui d’obtenir des résultats rapides et très concrets et acquisition et conversion.',
+            'Mettre en place une stratégie digitale représente un coût pour les entreprises. Vous devez donc établir un budget, car celui-ci déterminera au moins en partie les moyens que vous utiliserez pour atteindre vos objectifs.'
           ],
           fa:[
-            'Research beyond the business plan',
-            'Marketing options and rates',
-            'The ability to turnaround consulting',
-            'Help companies into more profitable',
-            'Customer engagement matters',
+            'Définissez vos clients cibles.',
+            'Identifiez vos objectifs et les outils.',
+            'Analysez vos médias existants.',
+            'Analysez vos médias gagnés.',
+            'Auditez vos médias payants.',
           ],
           widget_title:'Services',
           meipaly_categorie_widget:[
