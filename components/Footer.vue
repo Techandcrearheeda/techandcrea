@@ -7,7 +7,8 @@
           <aside class="widget aboutwidget">
             <a href="#"><img src="/images/logo.png" alt="" width="45"></a>
             <p>
-              Bienvenue à notre agence de conception web.
+              Bienvenue à notre agence de conception et développement numérique.<br>
+              Le fait est que les qualités, toutes les qualités, réclament une constante vigilance, un esprit critique jamais en défaut, un travail continuel de l'intelligence et du coeur.
             </p>
           </aside>
         </div>
