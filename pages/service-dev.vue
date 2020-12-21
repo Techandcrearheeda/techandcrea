@@ -30,6 +30,7 @@
               common_btn:'Contactez-nous'
           },
         ServiceDetailPage:{
+          img_url: ['/images/s1.jpg','images/s2.jpg'],
           serviceArea:[
             'Développement logiciel agile ',
             'Le développement logiciel agile permet aux équipes de livrer rapidement, de collaborer souvent et d\'améliorer continuellement leur produit. Nous adoptons une approche légèrement modifiée de la méthodologie Agile qui maximise ces avantages tout en utilisant un modèle offshore hybride.',
@@ -49,10 +50,9 @@
           widget_title:'Services',
           meipaly_categorie_widget:[
             'Website Development',
-            'Graphic Designing',
+            'Dématérialisation de l’entreprise ',
             'Digital Marketing',
-            'SEO',
-            'Content Writting',
+            'Service de Soutien',
             'App Development'
           ],
           meipaly_services_help:[

@@ -4,14 +4,14 @@
       <div class="row">
         <div class="col-lg-8 col-sm-8">
           <div class="serviceArea">
-            <img src="/images/s1.jpg" alt="">
+            <img :src="ServiceDetailContent.img_url[0]" alt="">
             <h2>{{ServiceDetailContent.serviceArea[0]}}</h2>
             <p>
               {{ServiceDetailContent.serviceArea[1]}}
             </p>
             <div class="row gaping">
               <div class="col-lg-6 col-sm-12 col-md-6">
-                <img src="images/s2.jpg" alt="">
+                <img :src="ServiceDetailContent.img_url[0]" alt="">
               </div>
               <div class="col-lg-6 col-sm-12 col-md-6">
                 <h3>{{ServiceDetailContent.serviceArea[2]}}</h3>
