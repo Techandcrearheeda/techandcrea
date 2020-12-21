@@ -4,14 +4,14 @@
       <div class="row">
         <div class="col-lg-8 col-sm-8">
           <div class="serviceArea">
-            <img src="/images/s1.jpg" alt="">
+            <img :src="ServiceDetailContent.img_url[0]" alt="">
             <h2>{{ServiceDetailContent.serviceArea[0]}}</h2>
             <p>
               {{ServiceDetailContent.serviceArea[1]}}
             </p>
             <div class="row gaping">
               <div class="col-lg-6 col-sm-12 col-md-6">
-                <img src="images/s2.jpg" alt="">
+                <img :src="ServiceDetailContent.img_url[1]" alt="">
               </div>
               <div class="col-lg-6 col-sm-12 col-md-6">
                 <h3>{{ServiceDetailContent.serviceArea[2]}}</h3>
@@ -38,11 +38,13 @@
             <h3 class="widget_title">{{ServiceDetailContent.widget_title}}</h3>
             <div class="meipaly_categorie_widget">
               <ul>
-                <li><a href="#">{{ServiceDetailContent.meipaly_categorie_widget[0]}}</a></li>
-                <li><a href="#">{{ServiceDetailContent.meipaly_categorie_widget[1]}}</a></li>
-                <li><a href="#">{{ServiceDetailContent.meipaly_categorie_widget[2]}}</a></li>
-                <li><a href="#">{{ServiceDetailContent.meipaly_categorie_widget[3]}} &amp; {{ServiceDetailContent.meipaly_categorie_widget[4]}}</a></li>
-                <li><a href="#">{{ServiceDetailContent.meipaly_categorie_widget[5]}}</a></li>
+                <li><a href="/service-dev">{{ServiceDetailContent.meipaly_categorie_widget[0]}}</a></li>
+                <li><a href="/service-dema">{{ServiceDetailContent.meipaly_categorie_widget[1]}}</a></li>
+                <li><a href="/service-market">{{ServiceDetailContent.meipaly_categorie_widget[2]}}</a></li>
+                <li><a href="/service-support">{{ServiceDetailContent.meipaly_categorie_widget[3]}}</a></li>
+                <li><a href="/service-dev-app">{{ServiceDetailContent.meipaly_categorie_widget[4]}}</a></li>
+                <!-- <li><a href="#">{{ServiceDetailContent.meipaly_categorie_widget[3]}} &amp; {{ServiceDetailContent.meipaly_categorie_widget[4]}}</a></li>
+                <li><a href="#">{{ServiceDetailContent.meipaly_categorie_widget[5]}}</a></li> -->
               </ul>
             </div>
           </aside>

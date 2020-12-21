@@ -8,7 +8,8 @@
           <p class="sec_desc">
             {{AboutAgencyContent.sec_desc}}
           </p>
-          <a class="common_btn red_bg" href="#"><span>{{AboutAgencyContent.common_btn}}</span></a>
+          <a class="common_btn red_bg" href="/about
+          "><span>{{AboutAgencyContent.common_btn}}</span></a>
         </div>
         <div class="col-lg-6 col-sm-6 col-md-6">
           <div class="ab_img1">

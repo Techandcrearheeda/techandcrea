@@ -20,7 +20,7 @@
             <div class="iconWrap">
               <i class="mei-settings"></i>
             </div>
-            <nuxt-link to="/service-detail">{{ServicesTwoContent.linkServiceDetail}}</nuxt-link>
+            <nuxt-link to="/service-dev">{{ServicesTwoContent.linkServiceDetail}}</nuxt-link>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 col-md-4">
@@ -32,7 +32,7 @@
             <div class="iconWrap">
               <i class="mei-pie-chart"></i>
             </div>
-            <nuxt-link to="/service-detail">{{ServicesTwoContent.linkServiceDetail}}</nuxt-link>
+            <nuxt-link to="/service-dev-app">{{ServicesTwoContent.linkServiceDetail}}</nuxt-link>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 col-md-4">
@@ -44,7 +44,7 @@
             <div class="iconWrap">
               <i class="mei-transfer"></i>
             </div>
-            <nuxt-link to="/service-detail">{{ServicesTwoContent.linkServiceDetail}}</nuxt-link>
+            <nuxt-link to="/service-market">{{ServicesTwoContent.linkServiceDetail}}</nuxt-link>
           </div>
         </div>
       </div>

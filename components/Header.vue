@@ -94,14 +94,15 @@
               <div class="popup-inner">
                 <div class="dl-menu__wrap dl-menuwrapper">
                   <ul class="dl-menu dl-menuopen">
-                    <li class="menu-item-has-children">
+                    <li><nuxt-link to="/">Home</nuxt-link></li>
+                    <!-- <li class="menu-item-has-children">
                       <a href="javascript:void(0);">home</a>
-                      <!-- <ul class="dl-submenu">
+                      <ul class="dl-submenu">
                         <li><nuxt-link to="/">Home 01</nuxt-link></li>
                         <li><nuxt-link to="/index-2">Home 02</nuxt-link></li>
                         <li><nuxt-link to="/index-3">Home 03</nuxt-link></li>
-                      </ul> -->
-                    </li>
+                      </ul>
+                    </li> -->
                     <li><nuxt-link to="/about">About</nuxt-link></li>
                     <li class="menu-item-has-children"><a href="javascript:void(0);">services</a>
                       <ul class="dl-submenu">
