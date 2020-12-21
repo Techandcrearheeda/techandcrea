@@ -11,7 +11,7 @@
             </p>
             <div class="row gaping">
               <div class="col-lg-6 col-sm-12 col-md-6">
-                <img :src="ServiceDetailContent.img_url[0]" alt="">
+                <img :src="ServiceDetailContent.img_url[1]" alt="">
               </div>
               <div class="col-lg-6 col-sm-12 col-md-6">
                 <h3>{{ServiceDetailContent.serviceArea[2]}}</h3>
