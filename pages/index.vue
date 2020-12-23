@@ -80,10 +80,26 @@
               sub_title:'RENCONTRER L\'ÉQUIPE',
               sec_title:'expert people',
               sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout ',' en offrant à nos employés la meilleure formation.'],
-              team_social:['Facebook','Twitter','Youtube'],
-              detail_TM:['kevin smith','Jessica Brown','Mike Hardson','Rose Ford','John Albert'],
-              specialities:['co founder','General Manager','Senior Designer','Marketing manager','Brand Officer'],           
-              common_btn:'Learn more'
+              equipe_content: [
+              {
+                team_social:'Facebook',
+                detail_TM:'kevin smith',
+                specialities:'co founder',           
+                common_btn:'Learn more'
+              },
+              {
+                team_social:'Facebook',
+                detail_TM:'Jessica Brown',
+                specialities:'General Manager',           
+                common_btn:'Learn more'
+              },
+              {
+                team_social:'Facebook',
+                detail_TM:'Mike Hardson',
+                specialities:'Senior Designer',   
+                common_btn:'Learn more'
+              }
+              ]
           },
           CallToActionPage:{
               sec_title:'COMMENCONS VOTRE PROJET!',

@@ -12,24 +12,24 @@
       </div>
     </div>
     <div class="team_slider">
-      <div class="singleTM">
+      <div class="singleTM" v-for="content in TeamContent.equipe_content" :key="content.id">
         <div class="tm_img">
           <img src="/images/team/1.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
-              <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
-              <a href="#"><span>{{TeamContent.team_social[1]}}</span></a>
-              <a href="#"><span>{{TeamContent.team_social[2]}}</span></a>
+              <!-- <a href="#"><span>{{content.team_social}}</span></a>
+              <a href="#"><span>{{content.team_social}}</span></a>
+              <a href="#"><span>{{content.team_social}}</span></a> -->
             </div>
-            <a href="#" class="common_btn"><span>{{TeamContent.common_btn}}</span></a>
+            <a href="#" class="common_btn"><span>{{content.common_btn}}</span></a>
           </div>
         </div>
-        <div class="detail_TM">CallToAction
-          <h5>{{TeamContent.detail_TM[0]}}</h5>
-          <h6>{{TeamContent.specialities[0]}}</h6>
+        <div class="detail_TM">
+          <h5>{{content.detail_TM}}</h5>
+          <h6>{{content.specialities}}</h6>
         </div>
       </div>
-      <div class="singleTM">
+      <!-- <div class="singleTM">
         <div class="tm_img">
           <img src="/images/team/2.jpg" alt="">
           <div class="tm_overlay">
@@ -96,7 +96,7 @@
           <h5>{{TeamContent.detail_TM[4]}}</h5>
           <h6>{{TeamContent.specialities[4]}}</h6>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
