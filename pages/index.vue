@@ -57,11 +57,11 @@
             sec_title: ['Une équipe à votre écoute ','et attentive à votre demande'],
             sec_desc : ['Nous nous engageons à fournir à nos clients un service exceptionnel ','tout en offrant à nos employés la meilleure formation.'],
             service:[
-                        'Website Development',
-                        'Dématérialisation de l’entreprise ',
-                        'Digital Marketing',
-                        'Service de Soutien',
-                        'App Development'
+                        {name:'Website Development',link:'service-dev'},
+                        {name:'Dématérialisation de l’entreprise',link:'service-dema'},
+                        {name:'Digital Marketing',link:'service-market'},
+                        {name:'Service de Soutien',link:'service-support'},
+                        {name:'App Development',link:'service-dev-app'}
                     ]
           },
           AboutAgencyPage:{
@@ -80,10 +80,32 @@
               sub_title:'RENCONTRER L\'ÉQUIPE',
               sec_title:'expert people',
               sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout ',' en offrant à nos employés la meilleure formation.'],
-              team_social:['Facebook','Twitter','Youtube'],
-              detail_TM:['kevin smith','Jessica Brown','Mike Hardson','Rose Ford','John Albert'],
-              specialities:['co founder','General Manager','Senior Designer','Marketing manager','Brand Officer'],           
-              common_btn:'Learn more'
+              equipe_content: [
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'kevin smith',
+                specialities:'co founder',           
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Jessica Brown',
+                specialities:'General Manager',           
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Mike Hardson',
+                specialities:'Senior Designer',   
+                common_btn:'Apprendre encore plus'
+              }
+              ]
           },
           CallToActionPage:{
               sec_title:'COMMENCONS VOTRE PROJET!',
@@ -93,3 +115,17 @@
     }
   }
 </script>
+
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 1500ms;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+</style>
