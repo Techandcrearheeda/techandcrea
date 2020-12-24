@@ -6,7 +6,7 @@
         <div class="container slider__content">
           <p class="slider-one__text">{{ slogan.title}}</p>
           <div class="slider-one__title tp-caption tp-resizeme">{{ slogan.subtile_part1 }} <br> {{ slogan.subtile_part2 }}</div>
-          <a href="/about" class="common_btn"><span>{{ slogan.callToAction }}</span></a>
+          <nuxt-link to="/about" class="common_btn"><span>{{ slogan.callToAction }}</span></nuxt-link>
           <!-- /.slider-one__text -->
         </div>
         <!-- /.container -->
@@ -16,7 +16,7 @@
         <div class="container slider__content">
           <p class="slider-one__text">{{ slogan.title }}</p>
           <div class="slider-one__title tp-caption tp-resizeme">{{ slogan.subtile_part1 }} <br> {{ slogan.subtile_part2 }}</div>
-          <a href="#" class="common_btn"><span>{{ slogan.callToAction }}</span></a>
+          <nuxt-link to="/about" class="common_btn"><span>{{ slogan.callToAction }}</span></nuxt-link>
         </div>
         <!-- /.container -->
       </div>
