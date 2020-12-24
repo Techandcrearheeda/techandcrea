@@ -12,7 +12,7 @@
       </div>
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-sm-12 col-md-10 col-md-offset-1">
-          <form class="contactFrom" id="contactForm">
+          <form class="contactFrom" id="contactForm" v-on:submit.prevent="send_message">
             <div class="row">
               <div class="col-lg-6 col-sm-6">
                 <input class="input-form required" type="text" v-model="form.first" name="f_name" id="f_name" placeholder="Prénom">
@@ -30,7 +30,7 @@
                 <textarea class="input-form required" name="con_message" v-model="form.message" id="con_message" placeholder="Écrire un message"></textarea>
               </div>
             </div>
-            <button class="common_btn red_bg" v-on:click="send_message" type="submit" id="con_submit"><span>{{ContactContent.common_btn}}</span></button>
+            <button class="common_btn red_bg" type="submit" id="con_submit"><span>{{ContactContent.common_btn}}</span></button>
           </form>
         </div>
       </div>
@@ -39,6 +39,7 @@
 </template>
 
 <script>
+import axios from 'axios';
     export default {
       name: "Contact",
       props:{
@@ -59,7 +60,7 @@
       },
       methods: {
         send_message: function() {
-          axios.post('https://v1.nocodeapi.com/vanjasoa/google_sheets/HJxMDjmENNubgmzi?tabId=Sheet1', [this.form.first, this.form.name, this.form.email, this.form.number, this.form.message])
+          axios.post('https://api.apispreadsheets.com/data/5522/', {"data": this.form})
             .then(function( response ){
                     // Handle success
                     alert('succes message send')
