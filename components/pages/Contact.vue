@@ -64,12 +64,16 @@ import axios from 'axios';
         }
       },
       methods: {
-        send_message: function() {
+        send_message: function(event) {
           axios.post('https://api.apispreadsheets.com/data/5522/', {"data": this.form})
             .then(function( response ){
                     // Handle success
-                    this.stat_message = true
+                    this.stat_message = true;
+                    this.reset_form()
                 }.bind(this));
+        },
+        reset_form: function(){
+          this.form = []
         }
       }
     }
