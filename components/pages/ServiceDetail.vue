@@ -62,7 +62,7 @@
 </template>
 
 <script>
-import serviceDetailVue from '~/pages/service-detail.vue'
+// import serviceDetailVue from '~/pages/service-detail.vue'
     export default {
       name: "ServiceDetail",
       props:{

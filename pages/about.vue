@@ -38,10 +38,32 @@
               sub_title:'RENCONTRER L\'ÉQUIPE',
               sec_title:'expert people',
               sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout en','offrant à nos employés la meilleure formation.'],
-              team_social:['Facebook','Twitter','Youtube'],
-              detail_TM:['kevin smith','Jessica Brown','Mike Hardson','Rose Ford','John Albert'],
-              specialities:['co founder','General Manager','Senior Designer','Marketing manager','Brand Officer'],           
-              common_btn:'Apprendre encore plus'
+              equipe_content: [
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'kevin smith',
+                specialities:'co founder',           
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Jessica Brown',
+                specialities:'General Manager',           
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Mike Hardson',
+                specialities:'Senior Designer',   
+                common_btn:'Apprendre encore plus'
+              }
+              ]
           },
           AboutAgencyPage:{
               sub_title:'Bienvenue à l\'agence tech and créa',

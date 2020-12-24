@@ -57,11 +57,11 @@
             sec_title: ['Une équipe à votre écoute ','et attentive à votre demande'],
             sec_desc : ['Nous nous engageons à fournir à nos clients un service exceptionnel ','tout en offrant à nos employés la meilleure formation.'],
             service:[
-                        'Website Development',
-                        'Dématérialisation de l’entreprise ',
-                        'Digital Marketing',
-                        'Service de Soutien',
-                        'App Development'
+                        {name:'Website Development',link:'service-dev'},
+                        {name:'Dématérialisation de l’entreprise',link:'service-dema'},
+                        {name:'Digital Marketing',link:'service-market'},
+                        {name:'Service de Soutien',link:'service-support'},
+                        {name:'App Development',link:'service-dev-app'}
                     ]
           },
           AboutAgencyPage:{
@@ -82,22 +82,28 @@
               sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout ',' en offrant à nos employés la meilleure formation.'],
               equipe_content: [
               {
-                team_social:'Facebook',
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
                 detail_TM:'kevin smith',
                 specialities:'co founder',           
-                common_btn:'Learn more'
+                common_btn:'Apprendre encore plus'
               },
               {
-                team_social:'Facebook',
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
                 detail_TM:'Jessica Brown',
                 specialities:'General Manager',           
-                common_btn:'Learn more'
+                common_btn:'Apprendre encore plus'
               },
               {
-                team_social:'Facebook',
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
                 detail_TM:'Mike Hardson',
                 specialities:'Senior Designer',   
-                common_btn:'Learn more'
+                common_btn:'Apprendre encore plus'
               }
               ]
           },

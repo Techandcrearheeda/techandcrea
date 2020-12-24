@@ -14,12 +14,12 @@
     <div class="team_slider">
       <div class="singleTM" v-for="content in TeamContent.equipe_content" :key="content.id">
         <div class="tm_img">
-          <img src="/images/team/1.jpg" alt="">
+          <img :src="content.img_src" alt="">
           <div class="tm_overlay">
             <div class="team_social">
-              <!-- <a href="#"><span>{{content.team_social}}</span></a>
-              <a href="#"><span>{{content.team_social}}</span></a>
-              <a href="#"><span>{{content.team_social}}</span></a> -->
+              <a :href="content.link[0]"><span>{{content.team_social[0]}}</span></a>
+              <a :href="content.link[1]"><span>{{content.team_social[1]}}</span></a>
+              <a :href="content.link[2]"><span>{{content.team_social[2]}}</span></a>
             </div>
             <a href="#" class="common_btn"><span>{{content.common_btn}}</span></a>
           </div>
