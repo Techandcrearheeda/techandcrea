@@ -31,6 +31,10 @@
               </div>
             </div>
             <button class="common_btn red_bg" type="submit" id="con_submit"><span>{{ContactContent.common_btn}}</span></button>
+            <div class="alert alert-success" v-if="stat_message" role="alert"> 
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              Message recus
+            </div>
           </form>
         </div>
       </div>
@@ -55,7 +59,8 @@ import axios from 'axios';
             email:'',
             number: '',
             message:''
-          }
+          },
+          stat_message: false
         }
       },
       methods: {
@@ -63,7 +68,7 @@ import axios from 'axios';
           axios.post('https://api.apispreadsheets.com/data/5522/', {"data": this.form})
             .then(function( response ){
                     // Handle success
-                    alert('succes message send')
+                    this.stat_message = true
                 }.bind(this));
         }
       }
