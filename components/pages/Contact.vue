@@ -24,7 +24,17 @@
                 <input class="input-form required" type="email" v-model="form.email" name="email" id="email" placeholder="Email">
               </div>
               <div class="col-lg-6 col-sm-6">
-                <input class="input-form" type="text" name="phone" v-model="form.number" id="phone" placeholder="Numéro de téléphone">
+                <div class="input-group">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">+261 <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">+261</a></li>
+                      <li><a href="#">+33</a></li>
+                    </ul>
+                  </div><!-- /btn-group -->
+                  <input class="input-form" type="text" name="phone" v-model="form.number" id="phone" placeholder="Numéro de téléphone">
+                </div><!-- /input-group -->
+                <!-- <input class="input-form" type="text" name="phone" v-model="form.number" id="phone" placeholder="Numéro de téléphone"> -->
               </div>
               <div class="col-lg-12 col-sm-12">
                 <textarea class="input-form required" name="con_message" v-model="form.message" id="con_message" placeholder="Écrire un message"></textarea>
