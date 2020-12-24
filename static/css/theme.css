@@ -3154,11 +3154,11 @@ textarea.input-form:focus{
     margin-bottom: 21px;
 }
 
-.contactFrom .btn {
+.contactFrom .form-control {
     height: 69px;
     resize: none;
     line-height: 30px;
-    padding: 21px 30px;
+    padding: 10.5px 15px;
     margin-bottom: 20px;
 }
 .contactFrom .common_btn.red_bg{
