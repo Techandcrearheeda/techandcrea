@@ -36,11 +36,11 @@
       return {
         TeamPage:{
               sub_title:'RENCONTRER L\'ÉQUIPE',
-              sec_title:'expert people',
+              sec_title:'et leur compétence',
               sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout en','offrant à nos employés la meilleure formation.'],
               team_social:['Facebook','Twitter','Youtube'],
-              detail_TM:['kevin smith','Jessica Brown','Mike Hardson','Rose Ford','John Albert'],
-              specialities:['co founder','General Manager','Senior Designer','Marketing manager','Brand Officer'],           
+              detail_TM:['Vanjasoa Andriarinoro','Rheeda Laingoniaina','Fenohasina Rasoavarison','Ainjatovo Irintsoa','Gaelle Tiavina Rajaona'],
+              specialities:['Directeur Général / Développeur','Founder / Marketing Manager','Développeur','Commerciale','Avant vente'],           
               common_btn:'Apprendre encore plus'
           },
           AboutAgencyPage:{

@@ -32,7 +32,7 @@
         ServiceDetailPage:{
           img_url: ['/images/webdev.png','/images/agile.jpg'],
           serviceArea:[
-            'Développement logiciel',
+            'Développement d\'application',
             'Techandcrea est votre solution pour développer des interfaces web adaptées à votre image. Doté d\'une équipe complète, nous réalisons tout type de développement, qui va d\'un simple site statique à des sites dynamiques les plus compliqués ! Bien sûr, toute réalisation doit répondre à votre cahier des charges et vos exigences. Par ailleurs, pour mener à bien à tous les projets, nous travaillons en appliquant la méthode agile afin de contrôler, respecter les dates de livraison et surtout d\'améliorer continuellement les produits encours.',
             'Principes et objectifs',
             '',
@@ -47,6 +47,8 @@
             'Le recettage, la livraison',
             'Et enfin le service après-vente',
           ],
+           fa2:[
+          ],
           widget_title:'Services',
           meipaly_categorie_widget:[
             'Développement de site internet',
@@ -57,9 +59,9 @@
           ],
           meipaly_services_help:[
             'BESOIN D\'AIDE?',
-            'Vous préférez parler à un humain plutôt que de remplir un formulaire? appelez le siège social et nous vous mettrons en contact avec un membre de l\'équipe qui pourra vous aider.',
-            'Madagascar : +261 32 53 699 31',
-            'France     : +33 6 16 05 09 85'
+            'Vous préférez parler à un humain plutôt que de remplir un formulaire? appelez le siège social et nous vous mettrons en contact avec un membre de l\'équipe qui pourra vous aider.',           
+            'France     : +33 6 16 05 09 85',
+            'Madagascar : +261 32 53 699 31'
           ]
         }
       }

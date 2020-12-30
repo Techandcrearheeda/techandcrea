@@ -14,7 +14,7 @@
     <div class="team_slider">
       <div class="singleTM">
         <div class="tm_img">
-          <img src="/images/team/1.jpg" alt="">
+          <img src="/images/team/vanjasoa.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
               <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
@@ -31,7 +31,7 @@
       </div>
       <div class="singleTM">
         <div class="tm_img">
-          <img src="/images/team/2.jpg" alt="">
+          <img src="/images/team/rheeda.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
               <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
@@ -48,7 +48,7 @@
       </div>
       <div class="singleTM">
         <div class="tm_img">
-          <img src="/images/team/3.jpg" alt="">
+          <img src="/images/team/2.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
               <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
@@ -65,7 +65,7 @@
       </div>
       <div class="singleTM">
         <div class="tm_img">
-          <img src="/images/team/4.jpg" alt="">
+          <img src="/images/team/irintsoa.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
               <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>
@@ -82,7 +82,7 @@
       </div>
       <div class="singleTM">
         <div class="tm_img">
-          <img src="/images/team/5.jpg" alt="">
+          <img src="/images/team/gaelle.jpg" alt="">
           <div class="tm_overlay">
             <div class="team_social">
               <a href="#"><span>{{TeamContent.team_social[0]}}</span></a>

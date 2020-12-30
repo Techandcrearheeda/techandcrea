@@ -47,18 +47,22 @@
             'Focus sur la qualité de service',
             ' Offrir des cadeaux',
           ],
+           fa2:[
+          
+          ],
           widget_title:'Services',
           meipaly_categorie_widget:[
-            'Website Development',
+            'Développement web',
             'Dématérialisation de l’entreprise ',
-            'Digital Marketing',
+            'Marketing Digital',
             'Service de Soutien',
-            'App Development'
+            'Développement d\'application'
           ],
           meipaly_services_help:[
-            'BESOIN D\'AIDE Techandcrea?',
+            'BESOIN D\'AIDE?',
             'Vous préférez parler à un humain plutôt que de remplir un formulaire? appelez le siège social et nous vous mettrons en contact avec un membre de l\'équipe qui pourra vous aider.',
-            '+261 32 53 699 31'
+             'France     : +33 6 16 05 09 85',
+            'Madagascar : +261 32 53 699 31'
           ]
         }
       }
