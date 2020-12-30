@@ -32,13 +32,13 @@
               <div class="col-lg-4 col-sm-4">
                 <input class="input-form col-lg-5 col-sm-5" type="text" name="phone" v-model="form.number" id="phone" placeholder="Numéro de téléphone">
               </div>
-              
+
               <div class="col-lg-12 col-sm-12">
                 <textarea class="input-form required" name="con_message" v-model="form.message" id="con_message" placeholder="Écrire un message"></textarea>
               </div>
             </div>
             <button class="common_btn red_bg" type="submit" id="con_submit"><span>{{ContactContent.common_btn}}</span></button>
-            <div class="alert alert-success" v-if="stat_message" role="alert"> 
+            <div class="alert alert-success" v-if="stat_message" role="alert">
               <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
               Message envoyé
             </div>

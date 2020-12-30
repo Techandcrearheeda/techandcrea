@@ -36,15 +36,16 @@
       return {
         TeamPage:{
               sub_title:'RENCONTRER L\'ÉQUIPE',
-              sec_title:'expert people',
+              sec_title:'et leur compétence',
               sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout en','offrant à nos employés la meilleure formation.'],
+
               equipe_content: [
               {
                 img_src: '/images/team/1.jpg',
                 link: ['facebook-link','twitter-link','linkedin-link'],
                 team_social:['Facebook','twitter','linkedin'],
                 detail_TM:'kevin smith',
-                specialities:'co founder',           
+                specialities:'co founder',
                 common_btn:'Apprendre encore plus'
               },
               {
@@ -52,7 +53,7 @@
                 link: ['facebook-link','twitter-link','linkedin-link'],
                 team_social:['Facebook','twitter','linkedin'],
                 detail_TM:'Jessica Brown',
-                specialities:'General Manager',           
+                specialities:'General Manager',
                 common_btn:'Apprendre encore plus'
               },
               {
@@ -60,7 +61,7 @@
                 link: ['facebook-link','twitter-link','linkedin-link'],
                 team_social:['Facebook','twitter','linkedin'],
                 detail_TM:'Mike Hardson',
-                specialities:'Senior Designer',   
+                specialities:'Senior Designer',
                 common_btn:'Apprendre encore plus'
               }
               ]
@@ -94,7 +95,7 @@
                 'Faire du numérique un état d’esprit',
                 'réduire l\'inconfort et le stress'
               ],
-              
+
               wh_choose1:
               [
                 'Le logiciel d’aujourd’hui n’est jamais vraiment terminé. Quelle que soit la solidité de votre logiciel, les bogues sont inévitables, tout comme les versions de correctifs et les mises à jour de nouvelles fonctionnalités. Un support post-livraison approprié garantit que votre logiciel reste sécurisé, maintenu et amélioré bien après son lancement.',
@@ -114,7 +115,7 @@
                 'Lancer le projet… et faire de l’amélioration continue',
                 'Améliorer le modèle de gouvernance en permanence',
                 'Des applications uniques et autonomes à l\'infrastructure cloud '
-              ]    
+              ]
           }
       }
     }

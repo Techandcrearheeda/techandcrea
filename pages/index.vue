@@ -52,7 +52,7 @@
   //     CallToAction,
   //   }
   // }
- 
+
   export default {
     data() {
         return {
@@ -67,11 +67,12 @@
             sec_title: ['Une équipe à votre écoute ','et attentive à votre demande'],
             sec_desc : ['Nous nous engageons à fournir à nos clients un service exceptionnel ','tout en offrant à nos employés la meilleure formation.'],
             service:[
-                        {name:'Website Development',link:'service-dev'},
+                        {name:'Développement web',link:'service-dev'},
                         {name:'Dématérialisation de l’entreprise',link:'service-dema'},
                         {name:'Digital Marketing',link:'service-market'},
                         {name:'Service de Soutien',link:'service-support'},
-                        {name:'App Development',link:'service-dev-app'}
+                        {name:'Développement d\'application',link:'service-dev-app'}
+
                     ]
           },
           AboutAgencyPage:{
@@ -88,15 +89,16 @@
           },
           TeamPage:{
               sub_title:'RENCONTRER L\'ÉQUIPE',
-              sec_title:'expert people',
+              sec_title:'et leurs compétences',
               sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout ',' en offrant à nos employés la meilleure formation.'],
+
               equipe_content: [
               {
                 img_src: '/images/team/1.jpg',
                 link: ['facebook-link','twitter-link','linkedin-link'],
                 team_social:['Facebook','twitter','linkedin'],
                 detail_TM:'kevin smith',
-                specialities:'co founder',           
+                specialities:'co founder',
                 common_btn:'Apprendre encore plus'
               },
               {
@@ -104,11 +106,20 @@
                 link: ['facebook-link','twitter-link','linkedin-link'],
                 team_social:['Facebook','twitter','linkedin'],
                 detail_TM:'Jessica Brown',
-                specialities:'General Manager',           
+                specialities:'General Manager',
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Mike Hardson',
+                specialities:'Senior Designer',
                 common_btn:'Apprendre encore plus'
               }
       
               ]
+
           },
           CallToActionPage:{
               sec_title:'COMMENCONS VOTRE PROJET!',

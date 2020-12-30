@@ -22,14 +22,29 @@
                   <li><i class="fa fa-check-square"></i>{{ServiceDetailContent.fa[2]}}</li>
                   <li><i class="fa fa-check-square"></i>{{ServiceDetailContent.fa[3]}}</li>
                   <li><i class="fa fa-check-square"></i>{{ServiceDetailContent.fa[4]}}</li>
+                  <li><i class="fa fa-check-square"></i>{{ServiceDetailContent.fa[5]}}</li>
                 </ul>
               </div>
             </div>
             <p>
               {{ServiceDetailContent.serviceArea[5]}}
             </p>
-            <p>
+           
+            <ul class="row">
+                  <li class="col-sm-12">{{ServiceDetailContent.fa2[0]}}</li>
+                  <li  class="col-sm-12">{{ServiceDetailContent.fa2[1]}}</li>
+                  <li class="col-sm-12">{{ServiceDetailContent.fa2[2]}}</li>
+                  <li class="col-sm-12">{{ServiceDetailContent.fa2[3]}}</li>
+                  <li class="col-sm-12">{{ServiceDetailContent.fa2[4]}}</li>
+            </ul>
+             <p>
               {{ServiceDetailContent.serviceArea[6]}}
+            </p>
+            <p>
+              {{ServiceDetailContent.serviceArea[7]}}
+            </p>
+            <p>
+              {{ServiceDetailContent.serviceArea[8]}}
             </p>
           </div>
         </div>
@@ -50,9 +65,10 @@
           </aside>
           <aside class="widget categories">
             <div class="meipaly_services_help">
-              <h4>{{ServiceDetailContent.meipaly_services_help[0]}}</h4>
+              <h2>{{ServiceDetailContent.meipaly_services_help[0]}}</h2>
               <p>{{ServiceDetailContent.meipaly_services_help[1]}}</p>
-              <h2>{{ServiceDetailContent.meipaly_services_help[2]}}</h2>
+              <h4>{{ServiceDetailContent.meipaly_services_help[2]}}</h4>
+               <h4>{{ServiceDetailContent.meipaly_services_help[3]}}</h4>
             </div>
           </aside>
         </div>

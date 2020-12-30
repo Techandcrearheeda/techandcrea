@@ -15,8 +15,11 @@
           <div class="videoWrap">
             <img src="/images/home_1/3.jpg" alt="">
             <div class="play_video">
-              <a class="video_popup" href="https://www.youtube.com/watch?v=A7ZkZazfvao"><i class="fa fa-play"></i></a>
-              <h2>Watch Video</h2>
+              <!--a class="video_popup" href="https://www.youtube.com/watch?v=XpM1fvHx8zg"><i class="fa fa-play"></i></a-->
+              <!--h2>Watch Video</h2-->
+              <iframe width="1170" height="550"
+                  src="https://www.youtube.com/embed/XpM1fvHx8zg?autoplay=1&mute=1">
+                  </iframe>
             </div>
           </div>
         </div>
@@ -28,7 +31,7 @@
         </div>
         <div class="col-lg-8 col-sm-7 col-md-8">
           <form action="" method="post" class="subscribefrom">
-            <input type="email" placeholder="Enter your email" name="email">
+            <input type="email" placeholder="Entrer votre email" name="email">
             <button class="common_btn red_bg" type="submit" name="submit"><span>{{WhatWeDoContent.common_btn}}</span></button>
           </form>
         </div>
