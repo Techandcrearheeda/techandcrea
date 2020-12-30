@@ -42,7 +42,7 @@
   //     CallToAction,
   //   }
   // }
- 
+
   export default {
     data() {
         return {
@@ -57,11 +57,11 @@
             sec_title: ['Une équipe à votre écoute ','et attentive à votre demande'],
             sec_desc : ['Nous nous engageons à fournir à nos clients un service exceptionnel ','tout en offrant à nos employés la meilleure formation.'],
             service:[
-                        'Website Development',
+                        'Développement web',
                         'Dématérialisation de l’entreprise ',
                         'Digital Marketing',
                         'Service de Soutien',
-                        'App Development'
+                        'Développement d\'application'
                     ]
           },
           AboutAgencyPage:{
@@ -78,12 +78,12 @@
           },
           TeamPage:{
               sub_title:'RENCONTRER L\'ÉQUIPE',
-              sec_title:'expert people',
+              sec_title:'et leurs compétences',
               sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout ',' en offrant à nos employés la meilleure formation.'],
               team_social:['Facebook','Twitter','Youtube'],
-              detail_TM:['kevin smith','Jessica Brown','Mike Hardson','Rose Ford','John Albert'],
-              specialities:['co founder','General Manager','Senior Designer','Marketing manager','Brand Officer'],           
-              common_btn:'Learn more'
+               detail_TM:['Vanjasoa Andriarinoro','Rheeda Laingoniaina','Fenohasina Rasoavarison','Ainjatovo Irintsoa','Gaelle Tiavina Rajaona'],
+                   specialities:['Directeur Général / Développeur','Founder / Marketing Manager','Développeur','Commerciale','Avant vente'],   
+             common_btn:'Learn more'
           },
           CallToActionPage:{
               sec_title:'COMMENCONS VOTRE PROJET!',

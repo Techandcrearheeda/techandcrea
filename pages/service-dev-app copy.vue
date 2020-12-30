@@ -56,10 +56,9 @@
             'Développement d\'application'
           ],
           meipaly_services_help:[
-            'BESOIN D\'AIDE?',
+            'BESOIN D\'AIDE Techandcrea?',
             'Vous préférez parler à un humain plutôt que de remplir un formulaire? appelez le siège social et nous vous mettrons en contact avec un membre de l\'équipe qui pourra vous aider.',
-            'France     : +33 6 16 05 09 85',
-            'Madagascar : +261 32 53 699 31'
+            '+261 32 53 699 31'
           ]
         }
       }
