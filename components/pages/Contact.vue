@@ -40,7 +40,7 @@
             <button class="common_btn red_bg" type="submit" id="con_submit"><span>{{ContactContent.common_btn}}</span></button>
             <div class="alert alert-success" v-if="stat_message" role="alert"> 
               <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              Message recus
+              Message envoyé
             </div>
           </form>
         </div>
@@ -65,13 +65,19 @@ import axios from 'axios';
             name:'',
             email:'',
             number: '',
-            message:''
+            message:'',
+            date:''
           },
           stat_message: false
         }
       },
       methods: {
         send_message: function(event) {
+          const today = new Date();
+          const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+          const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+          const dateTime = date +' '+ time;
+          this.form.date = dateTime;
           axios.post('https://api.apispreadsheets.com/data/5522/', {"data": this.form})
             .then(function( response ){
                     // Handle success
