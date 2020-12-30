@@ -106,15 +106,8 @@
                 detail_TM:'Jessica Brown',
                 specialities:'General Manager',           
                 common_btn:'Apprendre encore plus'
-              },
-              {
-                img_src: '/images/team/1.jpg',
-                link: ['facebook-link','twitter-link','linkedin-link'],
-                team_social:['Facebook','twitter','linkedin'],
-                detail_TM:'Mike Hardson',
-                specialities:'Senior Designer',   
-                common_btn:'Apprendre encore plus'
               }
+      
               ]
           },
           CallToActionPage:{
