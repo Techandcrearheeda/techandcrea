@@ -11,19 +11,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-sm-6 col-md-4">
+        <div class="col-lg-4 col-sm-6 col-md-4" v-for="content in ServicesTwoContent.row" :key="content.id">
           <div class="icon_box_2 text-center">
-            <h3>{{ServicesTwoContent.row[0]}}</h3>
+            <h3>{{content.name}}</h3>
             <p>
-              {{ServicesTwoContent.row[1]}}
+              {{content.description}}
             </p>
             <div class="iconWrap">
-              <i class="mei-settings"></i>
+              <i :class="content.icone"></i>
             </div>
-            <nuxt-link to="/service-dev">{{ServicesTwoContent.linkServiceDetail}}</nuxt-link>
+            <nuxt-link :to="content.link">{{content.linkServiceDetail}}</nuxt-link>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 col-md-4">
+        <!-- <div class="col-lg-4 col-sm-6 col-md-4">
           <div class="icon_box_2 text-center">
             <h3>{{ServicesTwoContent.row[2]}}</h3>
             <p>
@@ -46,7 +46,7 @@
             </div>
             <nuxt-link to="/service-market">{{ServicesTwoContent.linkServiceDetail}}</nuxt-link>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

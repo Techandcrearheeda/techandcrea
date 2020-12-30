@@ -15,7 +15,7 @@
               <nav class="mainmenu text-center">
                 <ul>
                   <li class="menu-item-has-children">
-                    <a href="/">Home</a>
+                    <nuxt-link to="/">Home</nuxt-link>
                     <!-- <ul class="sub-menu">
                       <li><nuxt-link to="/">Home 01</nuxt-link></li>
                     </ul> -->

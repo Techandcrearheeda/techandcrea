@@ -15,6 +15,16 @@
 </template>
 
 <script>
+// var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+// (function(){
+// var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+// s1.async=true;
+// s1.src='https://embed.tawk.to/5ea7e50735bcbb0c9ab559be/default';
+// s1.charset='UTF-8';
+// s1.setAttribute('crossorigin','*');
+// s0.parentNode.insertBefore(s1,s0);
+// })();
+
 // import WhatWeDoVue from '~/components/home/WhatWeDo.vue'
   // import SliderOne from "~/components/home/SliderOne";
   // import Services from "~/components/home/Services";
@@ -57,11 +67,12 @@
             sec_title: ['Une équipe à votre écoute ','et attentive à votre demande'],
             sec_desc : ['Nous nous engageons à fournir à nos clients un service exceptionnel ','tout en offrant à nos employés la meilleure formation.'],
             service:[
-                        'Développement web',
-                        'Dématérialisation de l’entreprise ',
-                        'Digital Marketing',
-                        'Service de Soutien',
-                        'Développement d\'application'
+                        {name:'Développement web',link:'service-dev'},
+                        {name:'Dématérialisation de l’entreprise',link:'service-dema'},
+                        {name:'Digital Marketing',link:'service-market'},
+                        {name:'Service de Soutien',link:'service-support'},
+                        {name:'Développement d\'application',link:'service-dev-app'}
+
                     ]
           },
           AboutAgencyPage:{
@@ -80,10 +91,34 @@
               sub_title:'RENCONTRER L\'ÉQUIPE',
               sec_title:'et leurs compétences',
               sec_desc :['Nous nous engageons à fournir à nos clients un service exceptionnel tout ',' en offrant à nos employés la meilleure formation.'],
-              team_social:['Facebook','Twitter','Youtube'],
-               detail_TM:['Vanjasoa Andriarinoro','Rheeda Laingoniaina','Fenohasina Rasoavarison','Ainjatovo Irintsoa','Gaelle Tiavina Rajaona'],
-                   specialities:['Directeur Général / Développeur','Founder / Marketing Manager','Développeur','Commerciale','Avant vente'],   
-             common_btn:'Learn more'
+
+              equipe_content: [
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'kevin smith',
+                specialities:'co founder',
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Jessica Brown',
+                specialities:'General Manager',
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Mike Hardson',
+                specialities:'Senior Designer',
+                common_btn:'Apprendre encore plus'
+              }
+              ]
+
           },
           CallToActionPage:{
               sec_title:'COMMENCONS VOTRE PROJET!',
@@ -93,3 +128,17 @@
     }
   }
 </script>
+
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 1500ms;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+</style>

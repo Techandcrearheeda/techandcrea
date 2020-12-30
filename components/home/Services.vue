@@ -11,21 +11,21 @@
         </div>
       </div>
       <div class="row custom_column">
-        <div class="col-lg-3 col-sm-4 col-md-3">
-          <nuxt-link to="/service-dev" class="icon_box_1 text-center">
+        <div class="col-lg-3 col-sm-4 col-md-3" v-for="content in ServiceContent.service" :key="content.id">
+          <nuxt-link :to="content.link" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
                 <i class="mei-web-design"></i>
-                <h3>{{ServiceContent.service[0]}}</h3>
+                <h3>{{content.name}}</h3>
               </div>
               <div class="back">
                 <i class="mei-web-design"></i>
-                <h3>{{ServiceContent.service[0]}}</h3>
+                <h3>{{content.name}}</h3>
               </div>
             </div>
           </nuxt-link>
         </div>
-        <div class="col-lg-3 col-sm-4 col-md-3">
+        <!-- <div class="col-lg-3 col-sm-4 col-md-3">
           <nuxt-link to="/service-dema" class="icon_box_1 text-center">
             <div class="flipper">
               <div class="front">
@@ -80,7 +80,7 @@
               </div>
             </div>
           </nuxt-link>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

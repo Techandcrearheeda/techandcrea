@@ -13,6 +13,7 @@
   import Map from "~/components/home2/Map";
   import ClientsTwo from "~/components/home2/ClientsTwo";
   export default {
+    // transition: "intro",
     components: {
       Contact,
       PageBanner,

@@ -8,8 +8,7 @@
           <p class="sec_desc">
             {{AboutAgencyContent.sec_desc}}
           </p>
-          <a class="common_btn red_bg" href="/about
-          "><span>{{AboutAgencyContent.common_btn}}</span></a>
+          <nuxt-link class="common_btn red_bg" to="/service-dev"><span>{{AboutAgencyContent.common_btn}}</span></nuxt-link>
         </div>
         <div class="col-lg-6 col-sm-6 col-md-6">
           <div class="ab_img1">

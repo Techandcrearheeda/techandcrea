@@ -11,15 +11,15 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-sm-6 col-md-4">
+        <div class="col-lg-4 col-sm-6 col-md-4" v-for="content in WhatWeDoTwoContent.row" :key="content.id">
           <div class="single_wedo">
-            <img src="/images/home_1/6.jpg" alt=""/>
+            <img :src="content.img_src" alt=""/>
             <div class="overlay_wedo">
-              <a href="/service-dev">{{WhatWeDoTwoContent.row[0]}}</a>
+              <nuxt-link :to="content.link">{{content.name}}</nuxt-link>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 col-md-4">
+        <!-- <div class="col-lg-4 col-sm-6 col-md-4">
           <div class="single_wedo">
             <img src="/images/home_1/7.jpg" alt=""/>
             <div class="overlay_wedo">
@@ -34,7 +34,7 @@
               <a href="/service-dema">{{WhatWeDoTwoContent.row[2]}}</a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
