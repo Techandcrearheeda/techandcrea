@@ -17,12 +17,16 @@
             <h3 class="widget_title">contact</h3>
             <p>
               Ambohimanala, Andoharanofotsy<br>
-              Analamanga, Madagascar
-            </p>
-            <p>P: +261 32 53 699 31</p>
+              Analamanga, Madagascar<br>
+            P: +261 32 53 699 31</p>
+              <p>
+              Montigny les cormeilles FRANCE
+           <br>
+            P: +33 6 16 05 09 85</p>
             <p>E: <a href="#">contact@techandcrea.com</a></p>
           </aside>
         </div>
+      
         <div class="col-lg-3 col-sm-2 col-md-3">
           <aside class="widget social_widget">
             <h3 class="widget_title">social</h3>
@@ -31,14 +35,15 @@
               <li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</a></li>
               <li><a href="#"><i class="fa fa-youtube-play"></i>Youtube</a></li>
             </ul>
-          </aside>
+          </aside>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12 col-sm-12 text-center">
-          <div class="copyright">
-            © copyright 2020 by <a href="#">techandcrea.com</a>
+          <div class="copyright row">
+           <div class="col-lg-6 col-sm-6 text-center"> © copyright 2020 by <a href="#">techandcrea.com</a></div><div class="col-lg-6 col-sm-6 text-center"><a href="mention">Mentions légales</a></div>
           </div>
+          
         </div>
       </div>
     </div>
