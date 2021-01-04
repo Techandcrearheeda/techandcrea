@@ -117,6 +117,7 @@
                 specialities:'Senior Designer',
                 common_btn:'Apprendre encore plus'
               }
+      
               ]
 
           },
