@@ -30,7 +30,7 @@
               common_btn:'Contactez-nous'
           },
         ServiceDetailPage:{
-          img_url: ['/images/app-dev-1.jpg','images/app-dev-2.jpeg'],
+          img_url: ['/images/app-dev-1.jpg','images/app-dev-2.jpeg'],//test
           serviceArea:[
             'Développement d\'application',
             'L\'application mobile permet d\'enrichir sa présence online, puisqu\'elle permet d\'être référencé sur les plateformes d\'applications telles que Play store ou App store. Avoir une application fait gagner en visibilité, et améliore l\'image de marque.',
@@ -46,6 +46,9 @@
             'Développer une stratégie d’évitement de contacts',
             'Amplifier l’intensité relationnelle avec le client.',
             'Détendre les consommateurs',
+          ],
+           fa2:[
+          
           ],
           widget_title:'Services',
           meipaly_categorie_widget:[
