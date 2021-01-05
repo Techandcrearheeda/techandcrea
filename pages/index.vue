@@ -97,7 +97,7 @@
                 img_src: '/images/team/1.jpg',
                 link: ['facebook-link','twitter-link','linkedin-link'],
                 team_social:['Facebook','twitter','linkedin'],
-                detail_TM:'kevin smith',
+                detail_TM:'Rheeda',
                 specialities:'co founder',
                 common_btn:'Apprendre encore plus'
               },
@@ -105,7 +105,7 @@
                 img_src: '/images/team/1.jpg',
                 link: ['facebook-link','twitter-link','linkedin-link'],
                 team_social:['Facebook','twitter','linkedin'],
-                detail_TM:'Jessica Brown',
+                detail_TM:'Vanjasoa',
                 specialities:'General Manager',
                 common_btn:'Apprendre encore plus'
               },
@@ -113,8 +113,40 @@
                 img_src: '/images/team/1.jpg',
                 link: ['facebook-link','twitter-link','linkedin-link'],
                 team_social:['Facebook','twitter','linkedin'],
-                detail_TM:'Mike Hardson',
-                specialities:'Senior Designer',
+                detail_TM:'Benjamin',
+                specialities:'Developper',
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Rojo',
+                specialities:'Developper',
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Malala',
+                specialities:'commercial',
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Ioby',
+                specialities:'Commercial',
+                common_btn:'Apprendre encore plus'
+              },
+              {
+                img_src: '/images/team/1.jpg',
+                link: ['facebook-link','twitter-link','linkedin-link'],
+                team_social:['Facebook','twitter','linkedin'],
+                detail_TM:'Gaelle',
+                specialities:'Commercial',
                 common_btn:'Apprendre encore plus'
               }
       
